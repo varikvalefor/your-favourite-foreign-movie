@@ -65,7 +65,7 @@ gnoun = gnoun1 / "(" gnoun1 ")"
 
 gnoun1 = gnoun2 ((SPACE {gnoun1 ", "})* CONJUNCTION SPACE gnoun2)?
 
-gnoun2 = pluralnoun1 (SPACE VARIABLE)? / singularnoun (SPACE VARIABLE)?
+gnoun2 = (pluralnoun / singularnoun) (SPACE VARIABLE)?
 
 
 
