@@ -37,7 +37,7 @@ introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw SPACE)* (CO
 
 
 
-noncompoundsentence = clause / INTERJECTION
+noncompoundsentence = clause / INTERJECTION / LATEXCLAUSE
 
 
 
