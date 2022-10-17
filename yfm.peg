@@ -203,7 +203,7 @@ eggphrase = EG "," SPACE gnoun ","
 
 
 
-number = DIGIT+ ("." DIGIT+)? | latexpression
+number = DIGIT+ ("." DIGIT+)? / latexpression
 
 
 
