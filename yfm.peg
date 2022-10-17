@@ -7,7 +7,7 @@ text1 = supersentence ENDPUNCT* / EMOTICON
 # | ni'o cumki fa lo nu lo nu lo me'oi .parenthesis. cu vasru lo me'oi .supersentence. poi pagbu lo me'oi .clause. cu filri'a lo nu lo prenu poi na djuno le du'u pilno lo me'oi .parenthesis. lo nu me'oi .indicate. lo me'oi .grouping. kei je nai lo nu vasru lo me'oi .parenthetical.
 supersentence = supersentence1 / "(" supersentence1 ")"
 
-supersentence1 = paragraphheader? introductory? (quantifier, SPACE)* (compoundsentence / conditional)
+supersentence1 = paragraphheader? introductory? (quantifier SPACE)* (compoundsentence / conditional)
 
 
 
@@ -19,7 +19,7 @@ conditional2 = conditional4 SPACE LOGICONJUNCTION SPACE conditional4
 
 conditional3 = LOGICONJUNCTION SPACE conditional4 ", " THEN conditional4
 
-conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsentence (SPACE, CONJUNCTION, conditional4)?
+conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsentence (SPACE CONJUNCTION conditional4)?
 
 
 
@@ -33,7 +33,7 @@ quantifier = PUQUANTIFIER SPACE gnoun (SPACE VARIABLE)? ","
 
 
 
-introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw, SPACE)* (CONJUNCTION SPACE)?
+introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw SPACE)* (CONJUNCTION SPACE)?
 
 
 
@@ -71,7 +71,7 @@ gnoun2 = (pluralnoun / singularnoun) (SPACE VARIABLE)?
 
 singularverb = singularverb1 / "(" singularverb1 ")"
 
-singularverb1 = SHELPVERB SPACE pluralverb / singularverb2 SPACE CONJUNCTION SPACE singularverb2 / (singularverb2, ", " (singularverb2 ", ")+ CONJUNCTION SPACE)? singularverb2
+singularverb1 = SHELPVERB SPACE pluralverb / singularverb2 SPACE CONJUNCTION SPACE singularverb2 / (singularverb2 ", " (singularverb2 ", ")+ CONJUNCTION SPACE)? singularverb2
 
 singularverb2 = singularverb3 / "(" singularverb3 ")"
 
@@ -81,7 +81,7 @@ singularverb3 = (adverb SPACE)? (SVERB / SLINKVERB) (SPACE adverb)?
 
 pluralverb = pluralverb1 / "(" pluralverb1 ")"
 
-pluralverb1 = PHELPVERB SPACE pluralverb / pluralverb2 SPACE CONJUNCTION SPACE pluralverb2 / (pluralverb2, ", " (pluralverb2 ", ")+ CONJUNCTION, SPACE)? pluralverb2
+pluralverb1 = PHELPVERB SPACE pluralverb / pluralverb2 SPACE CONJUNCTION SPACE pluralverb2 / (pluralverb2 ", " (pluralverb2 ", ")+ CONJUNCTION SPACE)? pluralverb2
 
 pluralverb2 = pluralverb3 / "(" pluralverb3 ")"
 
@@ -97,7 +97,7 @@ singularlinkingverb0 = SLINKVERB (SPACE adverb)?
 
 
 
-singularnoun = singularnoun ((", " (singularnoun, ", ")+ SPACE)? CONJUNCTION SPACE singularnoun)?
+singularnoun = singularnoun ((", " (singularnoun ", ")+ SPACE)? CONJUNCTION SPACE singularnoun)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
