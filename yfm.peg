@@ -97,7 +97,7 @@ singularlinkingverb0 = SLINKVERB (SPACE adverb)?
 
 
 
-singularnoun = singularnoun ((", " (singularnoun ", ")+ SPACE)? CONJUNCTION SPACE singularnoun)?
+singularnoun = singularnoun1 ((", " (singularnoun1 ", ")+ SPACE)? CONJUNCTION SPACE singularnoun1)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
