@@ -211,6 +211,10 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
+namelist = NAME ("," (SPACE NAME ",")* SPACE CONJUNCTION NAME)?
+
+
+
 
 
 
