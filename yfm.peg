@@ -187,11 +187,11 @@ infinitive = (adverb SPACE)? INFINITIVE
 
 adverb = adverb1 / "(" adverb1 ")"
 
-adverb2 = adverb2 SPACE prepositionalphrase / (adverb2 / prepositionalphrase)
+adverb1 = adverb1 SPACE prepositionalphrase / (adverb1 / prepositionalphrase)
 
-adverb3 = adverb4 (("," (SPACE adverb4 ",")+)? SPACE CONJUNCTION SPACE adverb4)?
+adverb2 = adverb3 (("," (SPACE adverb3 ",")+)? SPACE CONJUNCTION SPACE adverb3)?
 
-adverb4 = ADVERB / adverb
+adverb3 = ADVERB / adverb
 
 
 
