@@ -111,7 +111,7 @@ singularnoun5 = ARTICLE SPACE adjective / (ARTICLE SPACE)? (adjective SPACE)? (S
 
 
 
-pluralnoun = pluralnoun1 ((", " (pluralnoun1 ", ")+ SPACE)? CONJUNCTION SPACE pluralnoun1)?
+pluralnoun = pluralnoun1 ((", " (pluralnoun1 ", ")+)? CONJUNCTION SPACE pluralnoun1)?
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
