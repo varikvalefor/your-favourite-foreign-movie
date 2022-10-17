@@ -33,7 +33,7 @@ quantifier = PUQUANTIFIER SPACE gnoun (SPACE VARIABLE)? ","
 
 
 
-introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw SPACE)* (CONJUNCTION SPACE)?
+introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw ", ")* (CONJUNCTION SPACE)?
 
 
 
@@ -63,7 +63,7 @@ question1 = SHELPVERB SPACE singularnoun / PHELPVERB SPACE pluralnoun
 
 gnoun = gnoun1 / "(" gnoun1 ")"
 
-gnoun1 = gnoun2 (", " (SPACE {gnoun1 ", "})* CONJUNCTION SPACE gnoun2)?
+gnoun1 = gnoun2 (", " (gnoun1 ", ")* CONJUNCTION SPACE gnoun2)?
 
 gnoun2 = (pluralnoun / singularnoun) (SPACE VARIABLE)?
 
@@ -161,7 +161,7 @@ prepositionalphrase1 = PREPOSITION SPACE gnoun (SPACE CONJUNCTION SPACE preposit
 
 
 
-introporw = (INTERJECTION / prepositionalphrase / gerund) ","
+introporw = INTERJECTION / prepositionalphrase / gerund
 
 
 
@@ -189,7 +189,7 @@ adverb = adverb1 / "(" adverb1 ")"
 
 adverb1 = adverb1 SPACE prepositionalphrase / (adverb1 / prepositionalphrase)
 
-adverb2 = adverb3 (("," (SPACE adverb3 ",")+)? SPACE CONJUNCTION SPACE adverb3)?
+adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE CONJUNCTION SPACE adverb3)?
 
 adverb3 = ADVERB / adverb
 
@@ -199,7 +199,7 @@ infinitivephrase = "TO" SPACE infinitive (SPACE gnoun)? (SPACE prepositionalphra
 
 
 
-eggphrase = EG "," SPACE gnoun ","
+eggphrase = EG ", " gnoun ","
 
 
 
@@ -211,7 +211,7 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
-namelist = NAME ("," (SPACE NAME ",")* SPACE CONJUNCTION NAME)?
+namelist = NAME (", " (NAME ", ")* SPACE CONJUNCTION NAME)?
 
 
 
