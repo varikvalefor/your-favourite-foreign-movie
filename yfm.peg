@@ -1,6 +1,6 @@
 text = (text1 INTERSENTENCESPACE)* text1
 
-text1 = supersentence ENDPUNCT* / EMOTICON
+text1 = supersentence ENDPUNCT+ / EMOTICON
 
 
 
