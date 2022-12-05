@@ -15,25 +15,35 @@ conditional = conditional1 / "(" conditional1 ")"
 
 conditional1 = conditional2 / conditional3
 
-conditional2 = conditional4 SPACE LOGICONJUNCTION SPACE conditional4
+conditional2 = conditional4 SPACE logiconjunction SPACE conditional4
 
-conditional3 = LOGICONJUNCTION SPACE conditional4 ", " THEN conditional4
+conditional3 = logiconjunction SPACE conditional4 ", " THEN conditional4
 
-conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsentence (SPACE CONJUNCTION conditional4)?
+conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsentence (SPACE conjunction conditional4)?
+
+
+
+logiconjunction = LOGICONJUNCTION (" {" ("LC" / "LOGICONJ" "}"))?
 
 
 
 compoundsentence = (noncompoundsentence SPACE SUCHTHAT SPACE)? compoundsentence
 
-compoundsentence1 = noncompoundsentence ((", " CONJUNCTION / ";") SPACE compoundsentence)*
+compoundsentence1 = noncompoundsentence ((", " conjunction / ";") SPACE compoundsentence)*
 
 
 
-quantifier = PUQUANTIFIER SPACE gnoun (SPACE VARIABLE)? ","
+quantifier = quantifier1 SPACE gnoun (SPACE variable)? ","
+
+quantifier1 = PUQUANTIFIER " {PQ}"?
 
 
 
-introductory = (namelist ":" SPACE)? (CONJUNCTION SPACE)? (introporw ", ")* (CONJUNCTION SPACE)?
+variable = VARIABLE " {VAR}"?
+
+
+
+introductory = (namelist ":" SPACE)? (conjunction SPACE)? (introporw ", ")* (conjunction SPACE)?
 
 
 
@@ -57,31 +67,33 @@ pluralclause = (pluralnoun1 SPACE)? pluraldependentclause / pluralnoun SPACE plu
 
 question = question1 (infinitive (SPACE gnoun)?)?
 
-question1 = SHELPVERB SPACE singularnoun / PHELPVERB SPACE pluralnoun
+question1 = shelpverb SPACE singularnoun / phelpverb SPACE pluralnoun
 
 
 
 gnoun = gnoun1 / "(" gnoun1 ")"
 
-gnoun1 = gnoun2 (", " (gnoun1 ", ")* CONJUNCTION SPACE gnoun2)?
+gnoun1 = gnoun2 (", " (gnoun1 ", ")* conjunction SPACE gnoun2)?
 
-gnoun2 = (pluralnoun / singularnoun) (SPACE VARIABLE)?
+gnoun2 = (pluralnoun / singularnoun) (SPACE variable)?
 
 
 
 singularverb = singularverb1 / "(" singularverb1 ")"
 
-singularverb1 = SHELPVERB SPACE pluralverb / singularverb2 SPACE CONJUNCTION SPACE singularverb2 / (singularverb2 ", " (singularverb2 ", ")+ CONJUNCTION SPACE)? singularverb2
+singularverb1 = shelpverb SPACE pluralverb / singularverb2 SPACE conjunction SPACE singularverb2 / (singularverb2 ", " (singularverb2 ", ")+ conjunction SPACE)? singularverb2
 
 singularverb2 = singularverb3 / "(" singularverb3 ")"
 
-singularverb3 = (adverb SPACE)? (SVERB / SLINKVERB) (SPACE adverb)?
+singularverb3 = (adverb SPACE)? (singularverb4 / singuarlinkingverb1) (SPACE adverb)?
+
+singularverb4 = SVERB " {V}"?
 
 
 
 pluralverb = pluralverb1 / "(" pluralverb1 ")"
 
-pluralverb1 = PHELPVERB SPACE pluralverb / pluralverb2 SPACE CONJUNCTION SPACE pluralverb2 / (pluralverb2 ", " (pluralverb2 ", ")+ CONJUNCTION SPACE)? pluralverb2
+pluralverb1 = phelpverb SPACE pluralverb / pluralverb2 SPACE conjunction SPACE pluralverb2 / (pluralverb2 ", " (pluralverb2 ", ")+ conjunction SPACE)? pluralverb2
 
 pluralverb2 = pluralverb3 / "(" pluralverb3 ")"
 
@@ -89,15 +101,19 @@ pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
 
 
 
-plurallinkingverb0 = PLINKVERB (SPACE adverb)?
+plurallinkingverb0 = plurallinkingverb1 (SPACE adverb)?
+
+plurallinkingverb1 = PLINKVERB " {V}"?
 
 
 
-singularlinkingverb0 = SLINKVERB (SPACE adverb)?
+singularlinkingverb0 = singularlinkingverb1 (SPACE adverb)?
+
+singularlinkingverb1 = SLINKVERB " {V}"?
 
 
 
-singularnoun = singularnoun1 ((", " (singularnoun1 ", ")+)? CONJUNCTION SPACE singularnoun1)?
+singularnoun = singularnoun1 ((", " (singularnoun1 ", ")+)? conjunction SPACE singularnoun1)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
@@ -107,11 +123,11 @@ singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativecl
 
 singularnoun4 = (clausen / singularnoun5 / infinitivephrase) (SPACE (singularrelativeclause / prepositionalphrase))?
 
-singularnoun5 = ARTICLE SPACE adjective / (ARTICLE SPACE)? (adjective SPACE)? (SQUOTE / SNOUN / NAME / number)
+singularnoun5 = article SPACE adjective / (article SPACE)? (adjective SPACE)? (squote / snoun / name / number)
 
 
 
-pluralnoun = pluralnoun1 ((", " (pluralnoun1 ", ")+)? CONJUNCTION SPACE pluralnoun1)?
+pluralnoun = pluralnoun1 ((", " (pluralnoun1 ", ")+)? conjunction SPACE pluralnoun1)?
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
@@ -121,17 +137,49 @@ pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause /
 
 pluralnoun4 = (number SPACE)? pluralnoun5 (SPACE (pluralrelativeclause / prepositionalphrase))?
 
-pluralnoun5 = ARTICLE SPACE adjective / (ARTICLE SPACE)? (adjective SPACE)? (PQUOTE / PNOUN / number)
+pluralnoun5 = article SPACE adjective / (article SPACE)? (adjective SPACE)? (pquote / pnoun / number)
 
 
 
-pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+ SPACE)? CONJUNCTION SPACE pluraldependentclause1)?
+shelpverb = SHELPVERB (" {" ("HV" / "V") "}")?
+
+
+
+conjunction = CONJUNCTION " {CON}"?
+
+
+
+article = ARTICLE " {ART}"?
+
+
+
+squote = SQUOTE " {SQUOTE}"?
+
+
+
+snoun = SNOUN " {SNOUN}"?
+
+
+
+name = NAME " {NAME}"?
+
+
+
+pquote = PQUOTE " {PQUOTE}"?
+
+
+
+pnoun = PNOUN " {PNOUN}"?
+
+
+
+pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+ SPACE)? conjunction SPACE pluraldependentclause1)?
 
 pluraldependentclause1 = pluralverb (SPACE gnoun)?
 
 
 
-singulardependentclause = singulardependentclause1 ((", " (singulardependentclause1 ", ")+)? SPACE CONJUNCTION SPACE singulardependentclause1)?
+singulardependentclause = singulardependentclause1 ((", " (singulardependentclause1 ", ")+)? SPACE conjunction SPACE singulardependentclause1)?
 
 singulardependentclause1 = singularverb (SPACE gnoun)?
 
@@ -139,25 +187,27 @@ singulardependentclause1 = singularverb (SPACE gnoun)?
 
 pluralrelativeclause = pluralrelativeclause1 / ", " pluralrelativeclause1 ","
 
-pluralrelativeclause1 = RELCLAUSEOPENER SPACE pluraldependentclause
+pluralrelativeclause1 = RELclauseopener SPACE pluraldependentclause
 
 
 
 singularrelativeclause = singularrelativeclause1 / "," singularrelativeclause1 ","
 
-singularrelativeclause1 = RELCLAUSEOPENER SPACE singulardependentclause
+singularrelativeclause1 = RELclauseopener SPACE singulardependentclause
 
 
 
 gerund = gerund1 / "(" gerund1 ")"
 
-gerund1 = (adverb SPACE)? GERUNDWORD (SPACE gnoun)?
+gerund1 = (adverb SPACE)? gerund2 (SPACE gnoun)?
+
+gerund2 = GERUNDWORD " {GER}"?
 
 
 
 prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
-prepositionalphrase1 = PREPOSITION SPACE gnoun (SPACE CONJUNCTION SPACE prepositionalphrase1)?
+prepositionalphrase1 = PREPOSITION SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
 
 
 
@@ -167,21 +217,29 @@ introporw = INTERJECTION / prepositionalphrase / gerund
 
 clausen = clause1 / "(" clause1 ")"
 
-clausen1 = CLAUSEOPENER SPACE supersentence
+clausen1 = clauseopener SPACE supersentence
+
+
+
+clauseopener = CLAUSEOPENER " {CO}"?
 
 
 
 adjective = adjective1 / "(" adjective1 ")"
 
-adjective1 = adjective2 / adjective1 (", " (adjective1 ", ")+)? CONJUNCTION SPACE adjective1
+adjective1 = adjective2 / adjective1 (", " (adjective1 ", ")+)? conjunction SPACE adjective1
 
 adjective2 = adjective3 / "(" adjective3 ")"
 
-adjective3 = gnoun / (adverb SPACE)? (ADJECTIVE / number)
+adjective3 = gnoun / (adverb SPACE)? (adjective4 / number)
+
+adjective4 = ADJECTIVE " {ADJ}"?
 
 
 
-infinitive = (adverb SPACE)? INFINITIVE
+infinitive = (adverb SPACE)? infinitive1
+
+infinitive1 = INFINITIVE " {INF}"?
 
 
 
@@ -189,9 +247,11 @@ adverb = adverb1 / "(" adverb1 ")"
 
 adverb1 = adverb1 SPACE prepositionalphrase / (adverb1 / prepositionalphrase)
 
-adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE CONJUNCTION SPACE adverb3)?
+adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE conjunction SPACE adverb3)?
 
-adverb3 = ADVERB / adverb
+adverb3 = adverb4 / adverb
+
+adverb4 = ADVERB " {ADV}"?
 
 
 
@@ -211,7 +271,7 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
-namelist = NAME (", " (NAME ", ")+)? SPACE CONJUNCTION NAME)?
+namelist = name (", " (name ", ")+)? SPACE conjunction name)?
 
 
 
@@ -230,3 +290,19 @@ SPACE = "..."? " "
 
 
 ENDPUNCT = "?" / "." / "!"
+
+
+
+THAT = "THAT"
+
+
+
+INTERSENTENCESPACE = "  " / ""
+
+
+
+EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi"
+
+
+
+EG = "I.E." / "E.G."
