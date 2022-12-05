@@ -141,6 +141,10 @@ pluralnoun5 = article SPACE adjective / (article SPACE)? (adjective SPACE)? (pqu
 
 
 
+relclauseopener = RELCLAUSEOPENER " {RELCLAUSEOPENER}"?
+
+
+
 shelpverb = SHELPVERB (" {" ("HV" / "V") "}")?
 
 
@@ -191,13 +195,13 @@ singulardependentclause2 = singularverb (SPACE gnoun)?
 
 pluralrelativeclause = pluralrelativeclause1 / ", " pluralrelativeclause1 ","
 
-pluralrelativeclause1 = RELCLAUSEOPENER SPACE pluraldependentclause
+pluralrelativeclause1 = relclauseopener SPACE pluraldependentclause
 
 
 
 singularrelativeclause = singularrelativeclause1 / "," singularrelativeclause1 ","
 
-singularrelativeclause1 = RELCLAUSEOPENER SPACE singulardependentclause
+singularrelativeclause1 = relclauseopener SPACE singulardependentclause
 
 
 
