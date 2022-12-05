@@ -211,7 +211,9 @@ gerund2 = GERUNDWORD " {GER}"?
 
 prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
-prepositionalphrase1 = PREPOSITION SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
+prepositionalphrase1 = prepositionalphrase2 SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
+
+prepositionalphrase2 = PREPOSITION " {PREP|"?
 
 
 
