@@ -205,6 +205,7 @@ singularrelativeclause1 = relclauseopener SPACE singulardependentclause
 
 
 
+# | ni'o la .varik. cu zukyjdipei lo ka ce'u goi la .varik. cu vimcu la'oi .gerund. je zo'e kei ki'u le su'u ro da poi me'oi .gerund. zo'u cumki fa lo nu basygau lo me'oi .clausen. da kei kei je le su'u la .varik. cu jinvi le du'u lo me'oi .clausen. cu zmadu la'oi .gerund. le ka frili fa lo nu tcidu ja setese jimpe ja co'e ce'u
 gerund = gerund1 / "(" gerund1 ")"
 
 gerund1 = (adverb SPACE)? gerund2 (SPACE gnoun)?
@@ -319,6 +320,11 @@ EG = "I.E." / "E.G."
 
 
 
+# | ni'o le su'o prenu cu xusra ko'a goi le du'u ko'e goi zo'oi .WHICH. pe zoi glibau. THE CHAIR WHICH IS KICKED UP (FINALLY IS) BUSTICATED. .glibau. mu'oi glibau. relative pronoun .glibau.  .i ku'i la .varik. cu mutce le ka ce'u toltu'i fi ko'a
+#
+# .i ko'e na basyvla ni'i le su'u ro da poi me'oi .pronoun. zo'u su'o de poi sumti zo'u de smudu'i da kei je le su'u no da poi sumti zo'u da smudu'i ko'e
+#
+# .i ku'i la .varik. cu na jinvi le du'u su'o da poi cacklu pe'a ru'e ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
 RELCLAUSEOPENER = "WHICH" / "WHAT"
 
 
