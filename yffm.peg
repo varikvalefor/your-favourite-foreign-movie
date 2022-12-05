@@ -175,13 +175,17 @@ pnoun = PNOUN (" {" ("PNOUN" / "PN" / "N") "}")?
 
 pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+ SPACE)? conjunction SPACE pluraldependentclause1)?
 
-pluraldependentclause1 = pluralverb (SPACE gnoun)?
+pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") prepositionalphrase?
+
+pluraldependentclause2 = pluralverb (SPACE gnoun)?
 
 
 
 singulardependentclause = singulardependentclause1 ((", " (singulardependentclause1 ", ")+)? SPACE conjunction SPACE singulardependentclause1)?
 
-singulardependentclause1 = singularverb (SPACE gnoun)?
+singulardependentclause1 = (singulardependentclause2 / "(" singulardependentclause2 ")") prepositionalphrase?
+
+singulardependentclause2 = singularverb (SPACE gnoun)?
 
 
 
