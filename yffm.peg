@@ -157,7 +157,7 @@ squote = SQUOTE " {SQUOTE}"?
 
 
 
-snoun = SNOUN " {SNOUN}"?
+snoun = SNOUN (" {" ("SNOUN" / "SN" / "N") "}")?
 
 
 
@@ -169,7 +169,7 @@ pquote = PQUOTE " {PQUOTE}"?
 
 
 
-pnoun = PNOUN " {PNOUN}"?
+pnoun = PNOUN (" {" ("PNOUN" / "PN" / "N") "}")?
 
 
 
