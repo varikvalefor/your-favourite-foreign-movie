@@ -191,13 +191,13 @@ singulardependentclause2 = singularverb (SPACE gnoun)?
 
 pluralrelativeclause = pluralrelativeclause1 / ", " pluralrelativeclause1 ","
 
-pluralrelativeclause1 = RELclauseopener SPACE pluraldependentclause
+pluralrelativeclause1 = RELCLAUSEOPENER SPACE pluraldependentclause
 
 
 
 singularrelativeclause = singularrelativeclause1 / "," singularrelativeclause1 ","
 
-singularrelativeclause1 = RELclauseopener SPACE singulardependentclause
+singularrelativeclause1 = RELCLAUSEOPENER SPACE singulardependentclause
 
 
 
