@@ -57,11 +57,11 @@ clause1 = pluralclause / singularclause / question
 
 
 
-singularclause = singularnoun? SPACE singulardependentclause / singularnoun SPACE singularlinkingverb0 (SPACE adverb)? (SPACE adjective)?
+singularclause = singularnoun? SPACE singulardependentclause / singularnoun SPACE singularlinkingverb (SPACE adverb)? (SPACE adjective)?
 
 
 
-pluralclause = (pluralnoun1 SPACE)? pluraldependentclause / pluralnoun SPACE plurallinkingverb0 (SPACE adverb)? (SPACE adjective)?
+pluralclause = (pluralnoun1 SPACE)? pluraldependentclause / pluralnoun SPACE plurallinkingverb (SPACE adverb)? (SPACE adjective)?
 
 
 
@@ -101,13 +101,13 @@ pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
 
 
 
-plurallinkingverb0 = plurallinkingverb1 (SPACE adverb)?
+plurallinkingverb = plurallinkingverb1 (SPACE adverb)?
 
 plurallinkingverb1 = PLINKVERB " {V}"?
 
 
 
-singularlinkingverb0 = singularlinkingverb1 (SPACE adverb)?
+singularlinkingverb = singularlinkingverb1 (SPACE adverb)?
 
 singularlinkingverb1 = SLINKVERB " {V}"?
 
