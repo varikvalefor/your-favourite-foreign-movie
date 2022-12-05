@@ -316,3 +316,11 @@ EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell 
 
 
 EG = "I.E." / "E.G."
+
+
+
+RELCLAUSEOPENER = "WHICH" / "WHAT"
+
+
+
+CLAUSEOPENER = "THAT"
