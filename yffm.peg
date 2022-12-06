@@ -61,7 +61,7 @@ singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingv
 
 
 
-pluralclause = (pluralnoun1 SPACE)? pluraldependentclause / pluralnoun SPACE plurallinkingverb (SPACE adverb)? (SPACE adjective)?
+pluralclause = (pluralnoun1 SPACE)? (pluraldependentclause / plurallinkingverb (SPACE adverb)? (SPACE adjective)?) / (adverb SPACE)? adjective SPACE plurallinkingverb SPACE pluralnoun
 
 
 
