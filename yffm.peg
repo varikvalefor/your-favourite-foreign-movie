@@ -226,7 +226,7 @@ introporw = INTERJECTION / prepositionalphrase / gerund
 
 
 
-clausen = clause1 / "(" clause1 ")"
+clausen = clausen1 / "(" clausen1 ")"
 
 clausen1 = clauseopener SPACE supersentence
 
