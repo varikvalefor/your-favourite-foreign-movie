@@ -57,11 +57,11 @@ clause1 = pluralclause / singularclause / question
 
 
 
-singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingverb (SPACE adverb)? (SPACE (adjective / gnoun))?) / (adverb SPACE)? adjective SPACE singularlinkingverb SPACE singularnoun
+singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingverb) gnoun
 
 
 
-pluralclause = (pluralnoun1 SPACE)? (pluraldependentclause / plurallinkingverb (SPACE adverb)? (SPACE (adjective / gnoun))?) / (adverb SPACE)? adjective SPACE plurallinkingverb SPACE pluralnoun
+pluralclause = pluralnoun? SPACE (pluraldependentclause / plurallinkingverb) gnoun
 
 
 
@@ -123,7 +123,7 @@ singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativecl
 
 singularnoun4 = (clausen / singularnoun5 / infinitivephrase) (SPACE (singularrelativeclause / prepositionalphrase))?
 
-singularnoun5 = article SPACE adjective / (article SPACE)? (adjective SPACE)? (squote / snoun / name / number)
+singularnoun5 = (article SPACE)? (adjective SPACE)? (adjective / squote / snoun / name / number)
 
 
 
@@ -137,7 +137,7 @@ pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause /
 
 pluralnoun4 = (number SPACE)? pluralnoun5 (SPACE (pluralrelativeclause / prepositionalphrase))?
 
-pluralnoun5 = article SPACE adjective / (article SPACE)? (adjective SPACE)? (pquote / pnoun / number)
+pluralnoun5 = (article SPACE)? (adjective SPACE)? (adjective / pquote / pnoun / number)
 
 
 
