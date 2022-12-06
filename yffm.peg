@@ -238,7 +238,7 @@ clauseopener = CLAUSEOPENER " {CO}"?
 
 adjective = adjective1 / "(" adjective1 ")"
 
-adjective1 = adjective2 / adjective1 (", " (adjective1 ", ")+)? conjunction SPACE adjective1
+adjective1 = adjective2 ((", " (adjective2 ", ")+)? conjunction SPACE adjective2)?
 
 adjective2 = adjective3 / "(" adjective3 ")"
 
