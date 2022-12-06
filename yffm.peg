@@ -57,11 +57,11 @@ clause1 = pluralclause / singularclause / question
 
 
 
-singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingverb (SPACE adverb)? (SPACE adjective)?) / (adverb SPACE)? adjective SPACE singularlinkingverb SPACE singularnoun
+singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingverb (SPACE adverb)? (SPACE (adjective / gnoun))?) / (adverb SPACE)? adjective SPACE singularlinkingverb SPACE singularnoun
 
 
 
-pluralclause = (pluralnoun1 SPACE)? (pluraldependentclause / plurallinkingverb (SPACE adverb)? (SPACE adjective)?) / (adverb SPACE)? adjective SPACE plurallinkingverb SPACE pluralnoun
+pluralclause = (pluralnoun1 SPACE)? (pluraldependentclause / plurallinkingverb (SPACE adverb)? (SPACE (adjective / gnoun))?) / (adverb SPACE)? adjective SPACE plurallinkingverb SPACE pluralnoun
 
 
 
