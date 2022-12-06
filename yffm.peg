@@ -282,7 +282,7 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
-namelist = name (", " (name ", ")+)? SPACE conjunction name)?
+namelist = name ((", " (name ", ")+)? SPACE conjunction name)?
 
 
 
