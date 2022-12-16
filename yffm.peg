@@ -92,7 +92,7 @@ singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunct
 
 singularverb2 = (singularverb3 / "(" singularverb3 ")") prepositionalphrase?
 
-singularverb3 = (adverb SPACE)? (singularverb4 / singularlinkingverb1) (SPACE adverb)? gnoun? / adverb SPACE "(" singularverb3 ")"
+singularverb3 = (adverb SPACE)? (singularverb4 / singularlinkingverb1) (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
 singularverb4 = SVERB " {V}"?
 
