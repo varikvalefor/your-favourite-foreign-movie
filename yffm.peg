@@ -43,7 +43,9 @@ variable = VARIABLE SPACE "{VAR}"?
 
 
 
-introductory = (namelist ":" SPACE)? (conjunction SPACE)? (introporw ", ")* (conjunction SPACE)?
+introductory = (namelist ":" SPACE)? introductory1? (conjunction SPACE)?
+
+introductory1 = conjunction SPACE / (introporw "," SPACE)+ / conjunction "," SPACE (introporw "," SPACE)+
 
 
 
