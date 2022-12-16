@@ -23,7 +23,7 @@ conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsente
 
 
 
-logiconjunction = LOGICONJUNCTION (" {" ("LC" / "LOGICONJ") "}")?
+logiconjunction = LOGICONJUNCTION (SPACE "{" ("LC" / "LOGICONJ") "}")?
 
 
 
@@ -35,11 +35,11 @@ compoundsentence1 = noncompoundsentence ((", " conjunction / ";") SPACE compound
 
 quantifier = quantifier1 SPACE gnoun (SPACE variable)? ","
 
-quantifier1 = PUQUANTIFIER " {PQ}"?
+quantifier1 = PUQUANTIFIER SPACE "{PQ}"?
 
 
 
-variable = VARIABLE " {VAR}"?
+variable = VARIABLE SPACE "{VAR}"?
 
 
 
@@ -94,7 +94,7 @@ singularverb2 = (singularverb3 / "(" singularverb3 ")") prepositionalphrase?
 
 singularverb3 = (adverb SPACE)? (singularverb4 / singularlinkingverb1) (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
-singularverb4 = SVERB " {V}"?
+singularverb4 = SVERB SPACE "{V}"?
 
 
 
@@ -110,13 +110,13 @@ pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
 
 plurallinkingverb = plurallinkingverb1 (SPACE adverb)?
 
-plurallinkingverb1 = PLINKVERB " {V}"?
+plurallinkingverb1 = PLINKVERB SPACE "{V}"?
 
 
 
 singularlinkingverb = singularlinkingverb1 (SPACE adverb)?
 
-singularlinkingverb1 = SLINKVERB " {V}"?
+singularlinkingverb1 = SLINKVERB SPACE "{V}"?
 
 
 
@@ -148,39 +148,39 @@ pluralnoun5 = (article SPACE)? (adjective SPACE)? (adjective / pquote / pnoun / 
 
 
 
-relclauseopener = RELCLAUSEOPENER " {RELCLAUSEOPENER}"?
+relclauseopener = RELCLAUSEOPENER SPACE "{RELCLAUSEOPENER}"?
 
 
 
-shelpverb = SHELPVERB (" {" ("HV" / "V") "}")?
+shelpverb = SHELPVERB (SPACE "{" ("HV" / "V") "}")?
 
 
 
-conjunction = CONJUNCTION " {CON}"?
+conjunction = CONJUNCTION SPACE "{CON}"?
 
 
 
-article = ARTICLE " {ART}"?
+article = ARTICLE SPACE "{ART}"?
 
 
 
-squote = SQUOTE " {SQUOTE}"?
+squote = SQUOTE SPACE "{SQUOTE}"?
 
 
 
-snoun = SNOUN (" {" ("SNOUN" / "SN" / "N") "}")?
+snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
 
 
 
-name = NAME " {NAME}"?
+name = NAME SPACE "{NAME}"?
 
 
 
-pquote = PQUOTE " {PQUOTE}"?
+pquote = PQUOTE SPACE "{PQUOTE}"?
 
 
 
-pnoun = PNOUN (" {" ("PNOUN" / "PN" / "N") "}")?
+pnoun = PNOUN (SPACE "{" ("PNOUN" / "PN" / "N") "}")?
 
 
 
@@ -217,7 +217,7 @@ gerund = gerund1 / "(" gerund1 ")"
 
 gerund1 = (adverb SPACE)? gerund2 (SPACE gnoun)? prepositionalphrase?
 
-gerund2 = GERUNDWORD " {GER}"?
+gerund2 = GERUNDWORD SPACE "{GER}"?
 
 
 
@@ -225,7 +225,7 @@ prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
 prepositionalphrase1 = prepositionalphrase2 SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
 
-prepositionalphrase2 = PREPOSITION " {PREP}"?
+prepositionalphrase2 = PREPOSITION SPACE "{PREP}"?
 
 
 
@@ -239,7 +239,7 @@ clausen1 = clauseopener SPACE supersentence
 
 
 
-clauseopener = CLAUSEOPENER " {CO}"?
+clauseopener = CLAUSEOPENER SPACE "{CO}"?
 
 
 
@@ -251,13 +251,13 @@ adjective2 = adjective3 / "(" adjective3 ")"
 
 adjective3 = gnoun / (adverb SPACE)? (adjective4 / number)
 
-adjective4 = ADJECTIVE " {ADJ}"?
+adjective4 = ADJECTIVE SPACE "{ADJ}"?
 
 
 
 infinitive = (adverb SPACE)? infinitive1
 
-infinitive1 = INFINITIVE " {INF}"?
+infinitive1 = INFINITIVE SPACE "{INF}"?
 
 
 
@@ -269,7 +269,7 @@ adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE conjunction SPACE adverb3)?
 
 adverb3 = adverb4 / "(" adverb ")"
 
-adverb4 = ADVERB " {ADV}"?
+adverb4 = ADVERB SPACE "{ADV}"?
 
 
 
