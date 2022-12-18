@@ -138,7 +138,7 @@ pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause /
 
 pluralnoun4 = (number SPACE)? pluralnoun5 (SPACE (pluralrelativeclause / prepositionalphrase))?
 
-pluralnoun5 = (article SPACE)? (adjective SPACE)? (adjective / pquote / pnoun / number)
+pluralnoun5 = (article SPACE)? (adjective SPACE)? (adjective / pquote / pnoun / namelist / number)
 
 
 
