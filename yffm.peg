@@ -61,13 +61,13 @@ clause1 = pluralclause / singularclause / question
 
 singularclause = singularclause1 / "(" singularclause1 ")" prepositionalphrase
 
-singularclause1 = (singularnoun SPACE)? (singulardependentclause / singularlinkingverb gnoun?)
+singularclause1)= (singularnoun SPACE)? (singulardependentclause)
 
 
 
 pluralclause = pluralclause1 / "(" pluralclause1 ")" prepositionalphrase
 
-pluralclause1 = (pluralnoun SPACE)? (pluraldependentclause / plurallinkingverb gnoun?)
+pluralclause1 = (pluralnoun SPACE)? (pluraldependentclause)
 
 
 
@@ -98,7 +98,7 @@ singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunct
 
 singularverb2 = (singularverb3 / "(" singularverb3 ")") prepositionalphrase?
 
-singularverb3 = (adverb SPACE)? (singularverb4 / singularlinkingverb1) (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
+singularverb3 = (adverb SPACE)? singularverb4 (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
 singularverb4 = SVERB SPACE "{V}"?
 
@@ -111,18 +111,6 @@ pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 SPACE conjunction 
 pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") prepositionalphrase?
 
 pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
-
-
-
-plurallinkingverb = (adverb SPACE)? plurallinkingverb1 (SPACE adverb)?
-
-plurallinkingverb1 = PLINKVERB SPACE "{V}"?
-
-
-
-singularlinkingverb = (adverb SPACE)? singularlinkingverb1 (SPACE adverb)?
-
-singularlinkingverb1 = SLINKVERB SPACE "{V}"?
 
 
 
