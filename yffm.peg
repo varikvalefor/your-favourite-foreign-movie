@@ -124,7 +124,9 @@ singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativecl
 
 singularnoun4 = (clausen / singularnoun5 / infinitivephrase) (SPACE (singularrelativeclause / prepositionalphrase))?
 
-singularnoun5 = (article SPACE)? (adjective SPACE)? (adjective / squote / snoun / name / number)
+singularnoun5 = (article SPACE)? (adjective SPACE)? (singularnoun6 / "(" singularnoun6 ")")
+
+singularnoun6 = adjective / squote / snoun / name / number
 
 
 
@@ -138,7 +140,9 @@ pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause /
 
 pluralnoun4 = (number SPACE)? pluralnoun5 (SPACE (pluralrelativeclause / prepositionalphrase))?
 
-pluralnoun5 = (article SPACE)? (adjective SPACE)? (adjective / pquote / pnoun / namelist / number)
+pluralnoun5 = (article SPACE)? (adjective SPACE)? (pluralnoun6 / "(" pluralnoun6 ")")
+
+pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
