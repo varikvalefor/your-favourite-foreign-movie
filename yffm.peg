@@ -35,11 +35,11 @@ compoundsentence1 = noncompoundsentence ((", " conjunction / ";") SPACE compound
 
 quantifier = quantifier1 SPACE gnoun (SPACE variable)? ","
 
-quantifier1 = PUQUANTIFIER SPACE "{PQ}"?
+quantifier1 = PUQUANTIFIER (SPACE "{PQ}")?
 
 
 
-variable = VARIABLE SPACE "{VAR}"?
+variable = VARIABLE (SPACE "{VAR}")?
 
 
 
@@ -100,7 +100,7 @@ singularverb2 = (singularverb3 / "(" singularverb3 ")") prepositionalphrase?
 
 singularverb3 = (adverb SPACE)? singularverb4 (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
-singularverb4 = SVERB SPACE "{V}"?
+singularverb4 = SVERB (SPACE "{V}")?
 
 
 
@@ -112,7 +112,7 @@ pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") prepositionalphrase?
 
 pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
 
-pluralverb4 = SVERB SPACE "{V}"?
+pluralverb4 = SVERB (SPACE "{V}")?
 
 
 
@@ -148,7 +148,7 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-relclauseopener = RELCLAUSEOPENER SPACE "{RELCLAUSEOPENER}"?
+relclauseopener = RELCLAUSEOPENER (SPACE "{RELCLAUSEOPENER}")?
 
 
 
@@ -160,15 +160,15 @@ phelpverb = PHELPVERB (SPACE "{" "H"? "V}")?
 
 
 
-conjunction = CONJUNCTION SPACE "{CON}"?
+conjunction = CONJUNCTION (SPACE "{CON}")?
 
 
 
-article = ARTICLE SPACE "{ART}"?
+article = ARTICLE (SPACE "{ART}")?
 
 
 
-squote = SQUOTE SPACE "{SQUOTE}"?
+squote = SQUOTE (SPACE "{SQUOTE}")?
 
 
 
@@ -176,10 +176,10 @@ snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
 
 
 
-name = (NAME / "(" NAME ")") SPACE "{NAME}"?
+name = (NAME / "(" NAME ")") (SPACE "{NAME}")?
 
 
-pquote = PQUOTE SPACE "{PQUOTE}"?
+pquote = PQUOTE (SPACE "{PQUOTE}")?
 
 
 
@@ -220,7 +220,7 @@ gerund = gerund1 / "(" gerund1 ")"
 
 gerund1 = (adverb SPACE)? gerund2 (SPACE gnoun)? prepositionalphrase?
 
-gerund2 = GERUNDWORD SPACE "{GER}"?
+gerund2 = GERUNDWORD (SPACE "{GER}")?
 
 
 
@@ -228,7 +228,7 @@ prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
 prepositionalphrase1 = prepositionalphrase2 SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
 
-prepositionalphrase2 = PREPOSITION SPACE "{PREP}"?
+prepositionalphrase2 = PREPOSITION (SPACE "{PREP}")?
 
 
 
@@ -242,7 +242,7 @@ clausen1 = clauseopener SPACE supersentence
 
 
 
-clauseopener = CLAUSEOPENER SPACE "{CO}"?
+clauseopener = CLAUSEOPENER (SPACE "{CO}")?
 
 
 
@@ -254,13 +254,13 @@ adjective2 = adjective3 / "(" adjective3 ")"
 
 adjective3 = gnoun / (adverb SPACE)? (adjective4 / number)
 
-adjective4 = ADJECTIVE SPACE "{ADJ}"?
+adjective4 = ADJECTIVE (SPACE "{ADJ}")?
 
 
 
 infinitive = (adverb SPACE)? infinitive1
 
-infinitive1 = INFINITIVE SPACE "{INF}"?
+infinitive1 = INFINITIVE (SPACE "{INF}")?
 
 
 
@@ -272,7 +272,7 @@ adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE conjunction SPACE adverb3)?
 
 adverb3 = adverb4 / "(" adverb ")"
 
-adverb4 = ADVERB SPACE "{ADV}"?
+adverb4 = ADVERB (SPACE "{ADV}")?
 
 
 
