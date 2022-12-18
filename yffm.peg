@@ -156,6 +156,10 @@ shelpverb = SHELPVERB (SPACE "{" ("HV" / "V") "}")?
 
 
 
+phelpverb = PHELPVERB (SPACE "{" "H"? "V}")?
+
+
+
 conjunction = CONJUNCTION SPACE "{CON}"?
 
 
