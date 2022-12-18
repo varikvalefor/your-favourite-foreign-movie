@@ -61,13 +61,13 @@ clause1 = pluralclause / singularclause / question
 
 singularclause = singularclause1 / "(" singularclause1 ")" prepositionalphrase
 
-singularclause1 = (singularnoun SPACE)? (singulardependentclause)
+singularclause1 = (singularnoun SPACE)? singulardependentclause
 
 
 
 pluralclause = pluralclause1 / "(" pluralclause1 ")" prepositionalphrase
 
-pluralclause1 = (pluralnoun SPACE)? (pluraldependentclause)
+pluralclause1 = (pluralnoun SPACE)? pluraldependentclause
 
 
 
