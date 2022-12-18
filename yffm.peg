@@ -172,8 +172,7 @@ snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
 
 
 
-name = NAME SPACE "{NAME}"?
-
+name = (NAME / "(" NAME ")") SPACE "{NAME}"?
 
 
 pquote = PQUOTE SPACE "{PQUOTE}"?
