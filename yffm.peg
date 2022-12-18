@@ -59,11 +59,15 @@ clause1 = pluralclause / singularclause / question
 
 
 
-singularclause = singularnoun? SPACE (singulardependentclause / singularlinkingverb) gnoun
+singularclause = singularclause1 / "(" singularclause1 ")" prepositionalphrase
+
+singularclause1 = (singularnoun SPACE)? (singulardependentclause / singularlinkingverb gnoun?)
 
 
 
-pluralclause = pluralnoun? SPACE (pluraldependentclause / plurallinkingverb) gnoun
+pluralclause = pluralclause1 / "(" pluralclause1 ")" prepositionalphrase
+
+pluralclause1 = (pluralnoun SPACE)? (pluraldependentclause / plurallinkingverb gnoun?)
 
 
 
