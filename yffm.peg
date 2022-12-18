@@ -110,7 +110,9 @@ pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 SPACE conjunction 
 
 pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") prepositionalphrase?
 
-pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
+pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
+
+pluralverb4 = SVERB SPACE "{V}"?
 
 
 
