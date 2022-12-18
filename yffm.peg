@@ -110,13 +110,13 @@ pluralverb3 = (adverb SPACE)? (PVERB / PLINKVERB) (SPACE adverb)?
 
 
 
-plurallinkingverb = plurallinkingverb1 (SPACE adverb)?
+plurallinkingverb = (adverb SPACE)? plurallinkingverb1 (SPACE adverb)?
 
 plurallinkingverb1 = PLINKVERB SPACE "{V}"?
 
 
 
-singularlinkingverb = singularlinkingverb1 (SPACE adverb)?
+singularlinkingverb = (adverb SPACE)? singularlinkingverb1 (SPACE adverb)?
 
 singularlinkingverb1 = SLINKVERB SPACE "{V}"?
 
