@@ -11,5 +11,5 @@ ni'o la .varik. cu troci...
 
 * je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e selma'o bo cmene ku po'o
 
-ni'o cumki fa lo nu lo tcidu cu selzdi le du'u la .varik. cu zbasu le pamoi be lo'i ro genturfa'i poi se zbasu la .varik. ku'o pu le nu la .varik. cu nelci la .lojban. je cu troci lo nu la .varik. cu mutce le ka ce'u djuno fi la .lojban.
+ni'o cumki fa lo nu lo tcidu cu selzdi le du'u la .varik. cu ciska le pamoi be lo'i ro genturfa'i poi se ciska la .varik. ku'o pu le nu la .varik. cu nelci la .lojban. je cu troci lo nu la .varik. cu mutce le ka ce'u djuno fi la .lojban.
 
