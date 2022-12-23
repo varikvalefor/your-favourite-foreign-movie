@@ -1,5 +1,5 @@
 # your-favourite-foreign-movie
-ni'o ko'a goi la'o glibau. your favourite foreign movie .glibau. cu mu'oi glibau. parsing expression .glibau. gerna le glibau poi se pilno la varik.
+ni'o ko'a goi la'o glibau. your favourite foreign movie .glibau. cu mu'oi glibau. parsing expression .glibau. gerna le glibau poi selpli la varik.
 
 ni'o la .varik. cu troci...
 
