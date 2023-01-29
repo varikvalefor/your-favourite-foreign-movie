@@ -150,45 +150,6 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-relclauseopener = RELCLAUSEOPENER (SPACE "{RELCLAUSEOPENER}")?
-
-
-
-shelpverb = SHELPVERB (SPACE "{" ("HV" / "V") "}")?
-
-
-
-phelpverb = PHELPVERB (SPACE "{" "H"? "V}")?
-
-
-
-conjunction = CONJUNCTION (SPACE "{CON}")?
-
-
-
-article = ARTICLE (SPACE "{ART}")?
-
-
-
-squote = SQUOTE (SPACE "{SQUOTE}")?
-
-
-
-snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
-
-
-
-name = (NAME / "(" NAME ")") (SPACE "{NAME}")?
-
-
-pquote = PQUOTE (SPACE "{PQUOTE}")?
-
-
-
-pnoun = PNOUN (SPACE "{" ("PNOUN" / "PN" / "N") "}")?
-
-
-
 pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+ SPACE)? conjunction SPACE pluraldependentclause1)?
 
 pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") prepositionalphrase?
@@ -258,6 +219,45 @@ adjective3 = gnoun / (adverb SPACE)? (adjective4 / number)
 
 adjective4 = ADJECTIVE (SPACE "{ADJ}")?
 
+
+
+
+relclauseopener = RELCLAUSEOPENER (SPACE "{RELCLAUSEOPENER}")?
+
+
+
+shelpverb = SHELPVERB (SPACE "{" ("HV" / "V") "}")?
+
+
+
+phelpverb = PHELPVERB (SPACE "{" "H"? "V}")?
+
+
+
+conjunction = CONJUNCTION (SPACE "{CON}")?
+
+
+
+article = ARTICLE (SPACE "{ART}")?
+
+
+
+squote = SQUOTE (SPACE "{SQUOTE}")?
+
+
+
+snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
+
+
+
+name = (NAME / "(" NAME ")") (SPACE "{NAME}")?
+
+
+pquote = PQUOTE (SPACE "{PQUOTE}")?
+
+
+
+pnoun = PNOUN (SPACE "{" ("PNOUN" / "PN" / "N") "}")?
 
 
 infinitive = (adverb SPACE)? infinitive1
