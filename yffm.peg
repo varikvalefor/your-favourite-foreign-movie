@@ -150,7 +150,7 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+ SPACE)? conjunction SPACE pluraldependentclause1)?
+pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+)? conjunction SPACE pluraldependentclause1)?
 
 pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") prepositionalphrase?
 
