@@ -226,7 +226,7 @@ relclauseopener = RELCLAUSEOPENER (SPACE "{RELCLAUSEOPENER}")?
 
 
 
-shelpverb = SHELPVERB (SPACE "{" ("HV" / "V") "}")?
+shelpverb = SHELPVERB (SPACE "{" "H"? "V" "}")?
 
 
 
