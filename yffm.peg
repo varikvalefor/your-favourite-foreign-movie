@@ -322,6 +322,10 @@ THAT = "THAT"
 
 
 
+SUCHTHAT = "SUCH THAT"
+
+
+
 INTERSENTENCESPACE = "  " / ""
 
 
