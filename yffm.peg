@@ -86,7 +86,7 @@ gnoun1 = gnoun2 (", " (gnoun2 ", ")* conjunction SPACE gnoun2)?
 # .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ganai pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. cu na mutce le ka ce'u nelci le feglyzvi... kei je ku'i cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
 #
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
-gnoun2 = (ADJECTIVE / SNOUN / PNOUN)? gnoun3 / (ADJECTIVE / SNOUN / PNOUN) "(" gnoun2 ")"
+gnoun2 = (ADJECTIVE / SNOUN / PNOUN)? SPACE gnoun3 / (ADJECTIVE / SNOUN / PNOUN) SPACE "(" gnoun2 ")"
 
 gnoun3 = (pluralnoun / singularnoun) (SPACE variable)?
 
@@ -96,7 +96,7 @@ singularverb = singularverb1 / "(" singularverb1 ")"
 
 singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunction SPACE singularverb2 / (singularverb2 ", " (singularverb2 ", ")+ conjunction SPACE)? singularverb2
 
-singularverb2 = (singularverb3 / "(" singularverb3 ")") prepositionalphrase?
+singularverb2 = (singularverb3 / "(" singularverb3 ")") SPACE prepositionalphrase?
 
 singularverb3 = (adverb SPACE)? singularverb4 (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
@@ -108,7 +108,7 @@ pluralverb = pluralverb1 / "(" pluralverb1 ")"
 
 pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 SPACE conjunction SPACE pluralverb2 / (pluralverb2 ", " (pluralverb2 ", ")+ conjunction SPACE)? pluralverb2
 
-pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") prepositionalphrase?
+pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") SPACE prepositionalphrase?
 
 pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
 
@@ -116,11 +116,11 @@ pluralverb4 = SVERB (SPACE "{V}")?
 
 
 
-singularnoun = singularnoun1 ((", " (singularnoun1 ", ")+)? conjunction SPACE singularnoun1)?
+singularnoun = singularnoun1 (SPACE / (", " (singularnoun1 ", ")+) conjunction SPACE singularnoun1)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
-singularnoun2 = (singularnoun3 / "(" singularnoun3 ")") eggphrase?
+singularnoun2 = (singularnoun3 / "(" singularnoun3 ")") (SPACE eggphrase)?
 
 singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativeclause / prepositionalphrase))?
 
@@ -132,13 +132,13 @@ singularnoun6 = adjective / squote / snoun / name / number
 
 
 
-pluralnoun = pluralnoun1 ((", " (pluralnoun1 ", ")+)? conjunction SPACE pluralnoun1)? / pluralnoun05 (", " (pluralnoun05 ", ")+)? conjunction SPACE pluralnoun05
+pluralnoun = pluralnoun05 (SPACE / (", " (pluralnoun05 ", ")+) conjunction SPACE pluralnoun05)?
 
 pluralnoun05 = pluralnoun1 / singularnoun1
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
-pluralnoun2 = (pluralnoun3 / "(" pluralnoun3 ")") eggphrase?
+pluralnoun2 = (pluralnoun3 / "(" pluralnoun3 ")") (SPACE eggphrase)?
 
 pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause / prepositionalphrase))?
 
@@ -150,15 +150,15 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-pluraldependentclause = pluraldependentclause1 ((", " (pluraldependentclause1 ", ")+)? conjunction SPACE pluraldependentclause1)?
+pluraldependentclause = pluraldependentclause1 ((SPACE / ", " (pluraldependentclause1 ", ")+) conjunction SPACE pluraldependentclause1)?
 
-pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") prepositionalphrase?
+pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") (SPACE prepositionalphrase)?
 
 pluraldependentclause2 = pluralverb (SPACE gnoun)?
 
 
 
-singulardependentclause = singulardependentclause1 ((", " (singulardependentclause1 ", ")+)? SPACE conjunction SPACE singulardependentclause1)?
+singulardependentclause = singulardependentclause1 ((SPACE / ", " (singulardependentclause1 ", ")+) conjunction SPACE singulardependentclause1)?
 
 singulardependentclause1 = (singulardependentclause2 / "(" singulardependentclause2 ")") prepositionalphrase?
 
@@ -211,7 +211,7 @@ clauseopener = CLAUSEOPENER (SPACE "{CO}")?
 
 adjective = adjective1 / "(" adjective1 ")"
 
-adjective1 = adjective2 ((", " (adjective2 ", ")+)? conjunction SPACE adjective2)?
+adjective1 = adjective2 ((SPACE / ", " (adjective2 ", ")+) conjunction SPACE adjective2)?
 
 adjective2 = adjective3 / "(" adjective3 ")"
 
@@ -270,7 +270,7 @@ adverb = adverb1+ / "(" adverb1+ ")"
 
 adverb1 = adverb2 (SPACE prepositionalphrase)?
 
-adverb2 = adverb3 ((", " (adverb3 ", ")+)? SPACE conjunction SPACE adverb3)?
+adverb2 = adverb3 ((SPACE / ", " (adverb3 ", ")+) conjunction SPACE adverb3)?
 
 adverb3 = adverb4 / "(" adverb ")"
 
@@ -296,7 +296,7 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
-namelist = name ((", " (name ", ")+)? SPACE conjunction name)?
+namelist = name ((SPACE / (", " (name ", ")+)) SPACE conjunction name)?
 
 
 
