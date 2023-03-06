@@ -334,7 +334,7 @@ EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell 
 
 
 
-EG = "I.E." / "E.G." / "A.K.A."
+EG = ("I.E." / "E.G." / "A.K.A.") (SPACE "{EG}")?
 
 
 
