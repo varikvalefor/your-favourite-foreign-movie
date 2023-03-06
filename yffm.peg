@@ -246,7 +246,7 @@ squote = SQUOTE (SPACE "{SQUOTE}")?
 
 
 
-snoun = SNOUN (SPACE "{" ("SNOUN" / "SN" / "N") "}")?
+snoun = SNOUN (SPACE "{" "S"? "N" "OUN"? "}")?
 
 
 
