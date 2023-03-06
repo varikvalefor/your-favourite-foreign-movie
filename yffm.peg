@@ -257,7 +257,7 @@ pquote = PQUOTE (SPACE "{PQUOTE}")?
 
 
 
-pnoun = PNOUN (SPACE "{" ("PNOUN" / "PN" / "N") "}")?
+pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}" )?
 
 
 infinitive = (adverb SPACE)? infinitive1
