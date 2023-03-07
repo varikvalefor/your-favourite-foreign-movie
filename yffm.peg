@@ -318,6 +318,10 @@ ENDPUNCT = "?" / "." / "!"
 
 
 
+THEN = "THEN"
+
+
+
 THAT = "THAT"
 
 
