@@ -314,6 +314,10 @@ LOGICONJUNCTION = ("IF" / "IFF" / "IF" SPACE "AND" SPACE "ONLY" SPACE "IF" / "IF
 
 
 
+CONJUNCTION = ("BUT" / "NOT") ((SPACE / "-") "NOT")? / "OR" / "JI"
+
+
+
 PUQUANTIFIER = "FOR" SPACE "ALL"
 
 
