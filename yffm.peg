@@ -172,7 +172,7 @@ pluralrelativeclause1 = relclauseopener SPACE pluraldependentclause
 
 
 
-singularrelativeclause = singularrelativeclause1 / "," singularrelativeclause1 ","
+singularrelativeclause = singularrelativeclause1 / ", " singularrelativeclause1 ","
 
 singularrelativeclause1 = relclauseopener SPACE singulardependentclause
 
