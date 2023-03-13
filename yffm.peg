@@ -350,7 +350,7 @@ INTERSENTENCESPACE = "  " / ""
 
 
 
-EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi"
+EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi" / "lol no"
 
 
 
