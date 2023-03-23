@@ -27,7 +27,7 @@ logiconjunction = LOGICONJUNCTION (SPACE "{" ("LC" / "LOGICONJ") "}")?
 
 
 
-compoundsentence = (noncompoundsentence SPACE SUCHTHAT SPACE)* compoundsentence
+compoundsentence = (noncompoundsentence SPACE SUCHTHAT SPACE)* compoundsentence1
 
 compoundsentence1 = noncompoundsentence ((", " conjunction / ";") SPACE compoundsentence)*
 
