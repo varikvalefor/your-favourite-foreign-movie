@@ -191,7 +191,7 @@ prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
 prepositionalphrase1 = prepositionalphrase2 SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
 
-prepositionalphrase2 = PREPOSITION (SPACE "{PREP}")?
+prepositionalphrase2 = PREPOSITION (SPACE "{PREP" "OSITION"? "}")?
 
 
 
