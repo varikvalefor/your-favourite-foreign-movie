@@ -322,7 +322,7 @@ CONJUNCTION = ("BUT" / "NOT") ((SPACE / "-") "NOT")? / "OR" / "JI"
 
 
 
-PUQUANTIFIER = "FOR" SPACE "ALL"
+PUQUANTIFIER = "FOR" SPACE ("ALL" / "SOME" / "MANY")
 
 
 
