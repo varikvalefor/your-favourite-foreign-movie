@@ -112,7 +112,7 @@ pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") SPACE prepositionalphrase?
 
 pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
 
-pluralverb4 = SVERB (SPACE "{V}")?
+pluralverb4 = PVERB (SPACE "{V}")?
 
 
 
