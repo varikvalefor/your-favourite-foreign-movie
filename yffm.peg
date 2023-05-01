@@ -23,7 +23,7 @@ conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsente
 
 
 
-logiconjunction = LOGICONJUNCTION (SPACE "{" ("LC" / "LOGICONJ") "}")?
+logiconjunction = LOGICONJUNCTION
 
 
 
