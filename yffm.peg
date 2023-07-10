@@ -205,7 +205,7 @@ clausen1 = clauseopener SPACE supersentence
 
 
 
-clauseopener = CLAUSEOPENER (SPACE "{CO}")?
+clauseopener = CLAUSEOPENER (SPACE "{" ("CO" / "CLAUSEOPENER") "}")?
 
 
 
@@ -217,28 +217,28 @@ adjective2 = adjective3 / "(" adjective3 ")"
 
 adjective3 = gnoun / (adverb SPACE)? (adjective4 / number)
 
-adjective4 = ADJECTIVE (SPACE "{ADJ}")?
+adjective4 = ADJECTIVE (SPACE "{" "ADJ" "ECTIVE"? "}")?
 
 
 
 
-relclauseopener = RELCLAUSEOPENER (SPACE "{RELCLAUSEOPENER}")?
+relclauseopener = RELCLAUSEOPENER (SPACE "{" ("RCO" / "RELCLAUSEOPENER") "}")?
 
 
 
-shelpverb = SHELPVERB (SPACE "{" "H"? "V" "}")?
+shelpverb = SHELPVERB (SPACE "{" "S"? "H"? "V" "ERB"? "}")?
 
 
 
-phelpverb = PHELPVERB (SPACE "{" "H"? "V}")?
+phelpverb = PHELPVERB (SPACE "{" "P"? "H"? "V" "ERB"? "}")?
 
 
 
-conjunction = CONJUNCTION (SPACE "{CON}")?
+conjunction = CONJUNCTION (SPACE "{" "CON" "JUNCTION"? "}")?
 
 
 
-article = ARTICLE (SPACE "{ART}")?
+article = ARTICLE (SPACE "{ART" "ICLE"? "}")?
 
 
 
