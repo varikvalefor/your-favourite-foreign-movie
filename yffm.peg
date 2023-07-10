@@ -19,7 +19,9 @@ conditional2 = conditional4 SPACE logiconjunction SPACE conditional4
 
 conditional3 = logiconjunction SPACE conditional4 ", " THEN SPACE conditional4
 
-conditional4 = noncompoundsentence / "(" compoundsentence ")" / noncompoundsentence (SPACE conjunction conditional4)?
+conditional4 = conditional5 / "(" conditional5 ")"
+
+conditional5 = noncompoundsentence / noncompoundsentence (SPACE conjunction conditional4)?
 
 
 
