@@ -13,7 +13,7 @@ ni'o la .varik. cu troci...
 
 * je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e selma'o bo cmene ku po'o
 
-# English
+## English
 "`A`" denotes `your favourite foreign movie`.
 
 `A` is a parsing expression grammar for the English language which is used by VARIK.
