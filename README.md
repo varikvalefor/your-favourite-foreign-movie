@@ -5,7 +5,7 @@ ni'o ko'a goi la'o glibau. your favourite foreign movie .glibau. cu mu'oi glibau
 
 ni'o la .varik. cu troci...
 
-* lo nu lo'i ro jufra poi te gerna fi ko'a cu klesi lo'i ro jufra poi te gerna fi le glibau mu'oi glibau. style guide .glibau. poi se pilno la .varik. kei je
+* lo nu lo'i ro jufra poi ke'a te gerna fi ko'a cu klesi lo'i ro jufra poi ke'a te gerna fi le glibau mu'oi glibau. style guide .glibau. poi ke'a se pilno la .varik. kei je
 
 * lo nu ko'a lojysarxe kei je
 
