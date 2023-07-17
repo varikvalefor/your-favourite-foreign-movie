@@ -94,6 +94,9 @@ VARIK likes that \yifem\ is the name of \lernsumgrammer.
 
 \begin{code}
 open import Function
+  renaming (
+    id to le-su'u
+  )
 open import Data.String
 open import Relation.Nullary
 \end{code}
@@ -234,7 +237,7 @@ postulate
   iifcmexam : xamsku-je-sitsku-fa le-cmene
   iifrilits : mo'ifrili la-varik le-cmene la-skina
 
-iifcmenynelci : la-varik cu-nelci (le-cmene cu-cmene la-skina)
+iifcmenynelci : la-varik cu-nelci (le-su'u (le-cmene cu-cmene la-skina))
 iifcmenynelci = cmenynelci iifcmenes iifcmexam iifrilits
 \end{code}
 \end{document}
