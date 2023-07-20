@@ -90,7 +90,7 @@ gnoun1 = gnoun2 (", " (gnoun2 ", ")* conjunction SPACE gnoun2)?
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
 gnoun2 = (ADJECTIVE / SNOUN / PNOUN)? SPACE gnoun3 / (ADJECTIVE / SNOUN / PNOUN) SPACE "(" gnoun2 ")"
 
-gnoun3 = (pluralnoun / singularnoun) (SPACE variable)?
+gnoun3 = (pluralnoun / singularnoun) (SPACE variable)? / variable
 
 
 
