@@ -9,7 +9,9 @@ ni'o la .varik. cu troci...
 
 * lo nu ko'a lojysarxe kei je
 
-* lo nu tu'a ko'a cu filri'a lo nu sampu cusku lo plujava'i kei kei
+* lo nu tu'a ko'a cu filri'a lo nu sampu cusku lo plujava'i kei kei je
+
+* lo nu frili fa lo nu jimpe fi lo te gerna be fi ko'a kei kei je
 
 * je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e selma'o bo cmene ku po'o
 
@@ -18,4 +20,4 @@ ni'o la .varik. cu troci...
 
 `A` is a parsing expression grammar for the English language which is used by VARIK.
 
-VARIK attempts that (all sentences which are grammatical with regard to `A` are grammatical with regard to the style guides (for English) which are used by VARIK), that (`A` is logically harmonious), and that (`A` facilitates that simply expresses the complex).  But VARIK not attempts that VARIK only uses "canonical" names for selma'o/"parts of speech".
+VARIK attempts that (all sentences which are grammatical with regard to `A` are grammatical with regard to the style guides (for English) which are used by VARIK), that (`A` is logically harmonious), that (`A` facilitates that simply expresses the complex), and that (easy is that understands about the sentences which are grammatical with regard to `A`).  But VARIK not attempts that VARIK only uses "canonical" names for selma'o/"parts of speech".
