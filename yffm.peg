@@ -288,9 +288,11 @@ infinitivephrase1 = SPACE infinitive (SPACE gnoun)? (SPACE prepositionalphrase)?
 
 eggphrase = eggphrase1 SPACE eggphrase2 / eggphrase2 SPACE eggphrase1 / eggphrase1 / eggphrase2
 
-eggphrase1 = EG ", " gnoun ","
+eggphrase1 = eggword ", " gnoun ","
 
 eggphrase2 = AKA SPACE gnoun ","
+
+eggword = EG (SPACE "{EG}")?
 
 
 
@@ -360,7 +362,7 @@ AKA = "A.K.A." (SPACE "{AKA}")?
 
 
 
-EG = ("I.E." / "E.G.") (SPACE "{EG}")?
+EG = "I.E." / "E.G."
 
 
 
