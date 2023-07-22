@@ -290,9 +290,11 @@ eggphrase = eggphrase1 SPACE eggphrase2 / eggphrase2 SPACE eggphrase1 / eggphras
 
 eggphrase1 = eggword ", " gnoun ","
 
-eggphrase2 = AKA SPACE gnoun ","
+eggphrase2 = akaword SPACE gnoun ","
 
 eggword = EG (SPACE "{EG}")?
+
+akaword = AKA (SPACE "{AKA}") ?
 
 
 
@@ -358,7 +360,7 @@ EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell 
 
 
 
-AKA = "A.K.A." (SPACE "{AKA}")?
+AKA = "A.K.A."
 
 
 
