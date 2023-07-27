@@ -160,7 +160,7 @@ pluraldependentclause2 = pluralverb (SPACE gnoun)?
 
 
 
-singulardependentclause = singulardependentclause1 ((SPACE / ", " (singulardependentclause1 ", ")+) conjunction SPACE singulardependentclause1)?
+singulardependentclause = singulardependentclause1 ((SPACE / ", " (singulardependentclause ", ")+) conjunction SPACE singulardependentclause)?
 
 singulardependentclause1 = (singulardependentclause2 / "(" singulardependentclause2 ")") prepositionalphrase?
 
