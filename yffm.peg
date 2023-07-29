@@ -132,9 +132,7 @@ singularnoun6 = adjective / squote / snoun / name / number
 
 
 
-pluralnoun = pluralnoun05 (SPACE / (", " (pluralnoun05 ", ")+) conjunction SPACE pluralnoun05)?
-
-pluralnoun05 = pluralnoun1 / singularnoun1
+pluralnoun = pluralnoun1 (SPACE / (", " (pluralnoun1 ", ")+) conjunction SPACE pluralnoun1)?
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
