@@ -318,7 +318,7 @@ DIGIT = "0" / "1" / "2" / "3" / "4" / "5" / "6" / "7" / "8" / "9"
 
 
 
-LOGICONJUNCTION = ("IF" / "IFF" / "IF" SPACE "AND" SPACE "ONLY" SPACE "IF" / "IF-AND-ONLY-IF" / "ONLY" SPACE "IF" / "ONLY-IF")
+LOGICONJUNCTION = "IF" / "IFF" / "IF" SPACE "AND" SPACE "ONLY" SPACE "IF" / "IF-AND-ONLY-IF" / "ONLY" SPACE "IF" / "ONLY-IF"
 
 
 
