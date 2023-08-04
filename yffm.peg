@@ -39,7 +39,7 @@ quantifier1 = PUQUANTIFIER (SPACE "{PQ}")?
 
 
 
-variable = VARIABLE (SPACE "{VAR}")?
+variable = VARIABLE (SPACE "{" "VAR" "IABLE"? "}")?
 
 
 
