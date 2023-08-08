@@ -232,12 +232,13 @@ ni'o la .varik.\ cu stidi lo nu tcidu le torveki fa zo'e poi ke'a na jimpe fi le
 If the reader not understands about the Agda definition, then if the reder desires that the reader understands about the proof, then VARIK suggests that the reader reads the summary.
 
 \begin{code}
-postulate
-  iifcmenes : le-cmene cu-cmene la-skina
-  iifcmexam : xamsku-je-sitsku-fa le-cmene
-  iifrilits : mo'ifrili la-varik le-cmene la-skina
 
 iifcmenynelci : la-varik cu-nelci (le-su'u (le-cmene cu-cmene la-skina))
 iifcmenynelci = cmenynelci iifcmenes iifcmexam iifrilits
+  where
+  postulate
+    iifcmenes : le-cmene cu-cmene la-skina
+    iifcmexam : xamsku-je-sitsku-fa le-cmene
+    iifrilits : mo'ifrili la-varik le-cmene la-skina
 \end{code}
 \end{document}
