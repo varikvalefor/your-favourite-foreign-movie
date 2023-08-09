@@ -148,7 +148,7 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-pluraldependentclause = pluraldependentclause1 ((SPACE / COMMA SPACE (pluraldependentclause1 COMMA SPACE)+) conjunction SPACE pluraldependentclause1)?
+pluraldependentclause = pluraldependentclause1 ((COMMA SPACE (pluraldependentclause1 COMMA SPACE)+) conjunction SPACE pluraldependentclause1)?
 
 pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") (SPACE prepositionalphrase)?
 
@@ -156,7 +156,7 @@ pluraldependentclause2 = pluralverb (SPACE gnoun)?
 
 
 
-singulardependentclause = singulardependentclause1 ((SPACE / COMMA SPACE (singulardependentclause COMMA SPACE)+) conjunction SPACE singulardependentclause)?
+singulardependentclause = singulardependentclause1 ((COMMA SPACE (singulardependentclause COMMA SPACE)+) conjunction SPACE singulardependentclause)?
 
 singulardependentclause1 = (singulardependentclause2 / "(" singulardependentclause2 ")") prepositionalphrase?
 
