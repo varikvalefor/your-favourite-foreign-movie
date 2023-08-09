@@ -342,10 +342,6 @@ THEN = "THEN"
 
 
 
-THAT = "THAT"
-
-
-
 SUCHTHAT = "SUCH" (SPACE / "-") "THAT" (SPACE "{SUCHTHAT}")?
 
 
