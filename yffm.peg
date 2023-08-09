@@ -350,7 +350,7 @@ SUCHTHAT = "SUCH" (SPACE / "-") "THAT" (SPACE "{SUCHTHAT}")?
 
 
 
-INTERSENTENCESPACE = "  " / ""+
+INTERSENTENCESPACE = "  " / "\n"+
 
 
 
