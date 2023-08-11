@@ -116,7 +116,7 @@ pluralverb4 = PVERB (SPACE "{" "S"? "V" "ERB"? "}")?
 
 
 
-singularnoun = singularnoun1 (SPACE / (COMMA SPACE (singularnoun1 COMMA SPACE)+) conjunction SPACE singularnoun1)?
+singularnoun = singularnoun1 ((SPACE / (COMMA SPACE (singularnoun1 COMMA SPACE)+)) conjunction SPACE singularnoun1)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
@@ -132,7 +132,7 @@ singularnoun6 = adjective / squote / snoun / name / number
 
 
 
-pluralnoun = pluralnoun1 (SPACE / (COMMA SPACE (pluralnoun1 COMMA SPACE)+) conjunction SPACE pluralnoun1)?
+pluralnoun = pluralnoun1 ((SPACE / (COMMA SPACE (pluralnoun1 COMMA SPACE)+)) conjunction SPACE pluralnoun1)?
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
