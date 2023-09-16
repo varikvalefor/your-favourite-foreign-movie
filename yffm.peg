@@ -253,11 +253,13 @@ snoun = SNOUN (SPACE "{" "S"? "N" "OUN"? "}")?
 name = (NAME / "(" NAME ")") (SPACE "{NAME}")?
 
 
+
 pquote = PQUOTE (SPACE "{PQUOTE}")?
 
 
 
 pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}" )?
+
 
 
 infinitive = (adverb SPACE)? infinitive1
