@@ -268,7 +268,7 @@ pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}" )?
 
 infinitive = (adverb SPACE)? infinitive1
 
-infinitive1 = INFINITIVE (SPACE "{INF}")?
+infinitive1 = INFINITIVE (SPACE ("{" "INF" "INITIVE"? "}"?))?
 
 
 
