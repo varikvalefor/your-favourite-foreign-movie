@@ -374,7 +374,7 @@ COMMA = ","
 
 # | ni'o le su'o prenu cu xusra ko'a goi le du'u ko'e goi zo'oi .WHICH. pe zoi glibau. THE CHAIR WHICH IS KICKED UP (FINALLY IS) BUSTICATED. .glibau. mu'oi glibau. relative pronoun .glibau.  .i ku'i la .varik. cu mutce le ka ce'u toltu'i fi ko'a
 #
-# .i ko'e na basyvla ni'i le su'u ro da poi ke'a me'oi .pronoun. zo'u su'o de poi ke'a sumti zo'u de smudu'i da kei je le su'u no da poi ke'a sumti zo'u da smudu'i ko'e
+# .i ko'e na basyvla ni'i le su'u ro da poi ke'a me'oi .pronoun. zo'u da smudu'i lo su'o sumti kei je le su'u ko'e smudu'i lo no sumti
 #
 # .i ku'i la .varik. cu na jinvi le du'u su'o da poi ke'a cacklu pe'a ru'e ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
 RELCLAUSEOPENER = "WHICH" / "WHAT"
