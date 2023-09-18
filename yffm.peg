@@ -45,7 +45,7 @@ variable = VARIABLE (SPACE "{" "VAR" "IABLE"? "}")?
 
 introductory = (namelist ":" SPACE)? introductory1? (conjunction SPACE)?
 
-introductory1 = conjunction SPACE / (introporw COMMA SPACE)+ / conjunction COMMA SPACE (introporw COMMA SPACE)+
+introductory1 = conjunction SPACE / (conjunction COMMA SPACE)? (introporw COMMA SPACE)+
 
 
 
