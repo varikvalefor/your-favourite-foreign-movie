@@ -280,7 +280,7 @@ adverb2 = adverb3 ((SPACE / COMMA SPACE (adverb3 COMMA SPACE)+) conjunction SPAC
 
 adverb3 = adverb4 / "(" adverb ")"
 
-adverb4 = ADVERB (SPACE "{ADV}")?
+adverb4 = ADVERB (SPACE "{" "ADV" "ERB"? "}")?
 
 
 
