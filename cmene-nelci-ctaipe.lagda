@@ -58,7 +58,7 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi gl
 ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u le tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
-That (labels of proofs resemble labels of paragraphs) justifies that uses \texttt{subsection} and not \texttt{paragraph}.
+That (labels of proofs resemble labels of paragraphs) justifies that VARIK uses \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
 ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be ko'e goi le glibau be la .varik.\ kei ni'i le su'u\ldots
