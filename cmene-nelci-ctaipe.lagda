@@ -162,7 +162,7 @@ le-cmene = "your favourite foreign movie"
 
 \section{le bridi / The Predicates}
 
-\subsection{la'o zoi.\ \F{\_cu-cmene\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-cmene\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a\ \F{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
 
@@ -173,7 +173,7 @@ A proof of \B a\ \F{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
 postulate _cu-cmene_ : ∀ {a} → {A : Set a} → String → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a\ \F{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
