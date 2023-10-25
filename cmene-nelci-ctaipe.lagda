@@ -103,23 +103,23 @@ open import Relation.Nullary
 
 \section{le jicmu ja co'e / The Basic}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu}\ is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu}\ is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'oi .\F{Gerna}.}
+\subsection{la'oi .\AgdaPostulate{Gerna}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Gerna}.\ jo cu gerna
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Gerna}.\ jo cu gerna
 
 \paragraph{English}
-For all $A$, \F{Gerna}\ is the type of $A$ iff $A$ is a grammar.
+For all $A$, \AgdaPostulate{Gerna}\ is the type of $A$ iff $A$ is a grammar.
 
 \begin{code}
 postulate Gerna : Set
@@ -127,23 +127,23 @@ postulate Gerna : Set
 
 \section{le sampu / The Simple}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ cu du la .varik.\ .VALefor.\ poi ke'a se gugde le mergu'e zi'o je cu cmacypre\ldots je cu troci lo nu frili fa ko'i goi lo nu jimpe fi lo selci'a be ke'a kei kei jenai lo nu ko'i nandu
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ cu du la .varik.\ .VALefor.\ poi ke'a se gugde le mergu'e zi'o je cu cmacypre\ldots je cu troci lo nu frili fa ko'i goi lo nu jimpe fi lo selci'a be ke'a kei kei jenai lo nu ko'i nandu
 
 \paragraph{English}
-\F{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, and likes bad jokes.
+\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, and likes bad jokes.
 
 \begin{code}
 postulate la-varik : Prenu
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-skina}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-skina}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-skina}\ .zoi.\ gerna le glibau be la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-skina}\ .zoi.\ gerna le glibau be la .varik.
 
 \paragraph{English}
-\F{la-skina}\ is the English grammar which is used by VARIK.
+\AgdaPostulate{la-skina}\ is the English grammar which is used by VARIK.
 
 \begin{code}
 postulate la-skina : Gerna
@@ -162,51 +162,51 @@ le-cmene = "your favourite foreign movie"
 
 \section{le bridi / The Predicates}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-cmene\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-cmene\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \F{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \AgdaPostulate{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a\ \F{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
+A proof of \B a\ \AgdaPostulate{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
 
 \begin{code}
 postulate _cu-cmene_ : ∀ {a} → {A : Set a} → String → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \F{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \AgdaPostulate{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a\ \F{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
+A proof of \B a\ \AgdaPostulate{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
 
 \begin{code}
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{xamsku-je-sitsku-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{xamsku-je-sitsku-fa}\ \B b\ .zoi.\ gi xamsku je sitsku la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku-fa}\ \B b\ .zoi.\ gi xamsku je sitsku la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \F{xamsku-je-sitsku-fa} \B b\ exists iff \B b\ is a joke/reference.
+A proof of \AgdaPostulate{xamsku-je-sitsku-fa} \B b\ exists iff \B b\ is a joke/reference.
 
 \begin{code}
 postulate xamsku-je-sitsku-fa : String → Set
 \end{code}
 
-\subsection{la .\F{mo'ifrili}.}
+\subsection{la .\AgdaPostulate{mo'ifrili}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi ko'a goi la'o zoi.\ \B a\ .zoi.\ cu se frili lo nu ko'a morji lo du'u la'o zoi.\ \B b\ .zoi.\ cmene la'o zoi.\ \B c\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi ko'a goi la'o zoi.\ \B a\ .zoi.\ cu se frili lo nu ko'a morji lo du'u la'o zoi.\ \B b\ .zoi.\ cmene la'o zoi.\ \B c\ .zoi.
 
 \paragraph{English}
-A proof of \F{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff \B a\ finds that easy is that \B a\ remembers that \B b\ is the name of \B c.
+A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff \B a\ finds that easy is that \B a\ remembers that \B b\ is the name of \B c.
 
 \begin{code}
 postulate mo'ifrili : ∀ {a} → {A : Set a} → Prenu → String → A → Set
 \end{code}
 
-\subsection{la .\F{cmenynelci}.}
+\subsection{la .\AgdaPostulate{cmenynelci}.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
