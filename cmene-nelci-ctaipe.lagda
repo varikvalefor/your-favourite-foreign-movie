@@ -227,7 +227,7 @@ postulate
 
 \section{le ctaipe / The Proof}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu stidi lo nu tcidu le torveki fa zo'e poi ke'a na jimpe fi le velcki be bau la'oi .Agda.\ jenai poi ke'a djica lo nu ke'a jimpe fi le ctaipe
+ni'o la .varik.\ cu stidi lo nu tcidu le torveki fa zo'e poi ke'a na jimpe fi le velcki be bau la'oi .Agda.\ je poi ke'a djica lo nu ke'a jimpe fi le ctaipe
 
 \paragraph{English}
 If the reader not understands about the Agda definition, then if the reder desires that the reader understands about the proof, then VARIK suggests that the reader reads the summary.
