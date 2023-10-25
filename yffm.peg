@@ -328,7 +328,7 @@ LOGICONJUNCTION = "IF" / "IFF" / "IF" SPACE "AND" SPACE "ONLY" SPACE "IF" / "IF-
 
 
 
-CONJUNCTION = ("BUT" / "NOT" / "AND") ((SPACE / "-") "NOT")? / "OR" / "JI"
+CONJUNCTION = ("BUT" / "AND") ((SPACE / "-") "NOT")? / "OR" / "JI"
 
 
 
