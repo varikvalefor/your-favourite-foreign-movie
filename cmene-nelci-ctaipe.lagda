@@ -38,6 +38,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
+\newcommand\OpP[1]{\AgdaOperator{AgdaPostulate{#1}}}
 
 \title{le ctaipe be le su'u la .varik.\ cu nelci le cmene be le gerna be le glibau be la .varik.\ / The Proof of that VARIK Likes the Name of the English Grammar which is Used by VARIK}
 \author{la .varik.\ .VALefor.}
@@ -164,10 +165,10 @@ le-cmene = "your favourite foreign movie"
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-cmene\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \AgdaPostulate{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a\ \AgdaPostulate{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
+A proof of \B a\ \OpP{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
 
 \begin{code}
 postulate _cu-cmene_ : ∀ {a} → {A : Set a} → String → A → Set
@@ -175,10 +176,10 @@ postulate _cu-cmene_ : ∀ {a} → {A : Set a} → String → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \AgdaPostulate{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a\ \AgdaPostulate{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
+A proof of \B a\ \OpP{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
 
 \begin{code}
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
