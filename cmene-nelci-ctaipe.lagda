@@ -71,24 +71,25 @@ ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign m
 
 \subsection{English}
 
-\newcommand\yifem{``\texttt{your favourite foreign movie}''}
-\newcommand\lernsumgrammer{the English grammar which is used by VARIK}
-
 \begin{thm}
-VARIK likes that \yifem\ is the name of \lernsumgrammer.
+VARIK likes that ``\texttt{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
 \end{thm}
 \begin{proof}
 	${}$
 
+	$C$ is ``\texttt{your favourite foreign movie}''.
+
+	$Y$ is the English grammar which is used by VARIK.
+
 	For all $A$, for all $B$, if $B$ is the name of $A$, then if $B$ is a joke/reference, then if VARIK finds that easy is that VARIK remembers that $B$ is the name of $A$, then VARIK likes that $B$ is the name of $A$.
 
-	\yifem\ is the name of \lernsumgrammer.
+	$C$ is the name of $Y$.
 
-	\yifem\ is a joke/reference.  % .i ji'a filri'a lo nu zo'oi .yifem. cmavlaka'i le cmene be ko'e
+	$C$ is a joke/reference.
 
-	VARIK finds that easy is that VARIK remembers that \yifem\ is the name of \lernsumgrammer.
+	VARIK finds that easy is that VARIK remembers that $C$ is the name of $Y$
 
-	Therefore, VARIK likes that \yifem\ is the name of \lernsumgrammer.
+	Therefore, VARIK likes that $C$ is the name of $Y$.
 \end{proof}
 
 \section{le vrici / The Miscellaneous}
