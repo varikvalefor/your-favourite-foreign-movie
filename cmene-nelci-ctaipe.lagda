@@ -134,7 +134,7 @@ postulate Gerna : Set
 ni'o la'o zoi.\ \agdapostulate{la-varik}\ .zoi.\ cu du la .varik.\ .valefor.\ poi ke'a se gugde le mergu'e zi'o je cu cmacypre\ldots je cu troci lo nu frili fa ko'i goi lo nu jimpe fi lo selsku be ke'a kei kei jenai lo nu ko'i nandu kei je ku'i cu tolnei zo'e poi ke'a banzuka lo ka ce'u frili kei lo nu ke'a toldra
 
 \paragraph{English}
-\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, and likes bad jokes.
+\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, likes bad jokes, attempts that easy is understanding (the stuff which is communicated/spoken/written by VARIK), and not attempts that difficult is understanding the stuff which is written by VARIK.  Additionally, VARIK dislikes stuff which is ``incorrectly'' simple.
 
 \begin{code}
 postulate la-varik : Prenu
