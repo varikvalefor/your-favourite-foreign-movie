@@ -183,9 +183,7 @@ singularrelativeclause1 = relclauseopener SPACE singulardependentclause
 # | ni'o la .varik. cu zukyjdipei lo ka ce'u cu vimcu la'oi .gerund. je zo'e kei ki'u le su'u ro da poi ke'a me'oi .gerund. zo'u cumki fa lo nu basygau lo me'oi .clausen. da kei kei je le su'u la .varik. cu jinvi le du'u lo me'oi .clausen. cu zmadu la'oi .gerund. le ka frili fa lo nu tcidu ja setese jimpe ja co'e ce'u
 gerund = gerund1 / "(" gerund1 ")"
 
-gerund1 = (adverb SPACE)? gerund2 prepositionalphrase? (SPACE gnoun)?
-
-gerund2 = GERUNDWORD (SPACE "{" "GER" "UND"? "}")?
+gerund1 = (adverb SPACE)? gerundword prepositionalphrase? (SPACE gnoun)?
 
 
 
@@ -299,6 +297,10 @@ eggphrase2 = akaword SPACE gnoun COMMA
 eggword = EG (SPACE "{EG}")?
 
 akaword = AKA (SPACE "{AKA}") ?
+
+
+
+gerundword = GERUNDWORD (SPACE "{" "GER" "UND"? "}")?
 
 
 
