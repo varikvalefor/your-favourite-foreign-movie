@@ -185,7 +185,7 @@ gerund = gerund1 / "(" gerund1 ")"
 
 gerund1 = (adverb SPACE)? gerund2 prepositionalphrase? (SPACE gnoun)?
 
-gerund2 = GERUNDWORD (SPACE "{GER}")?
+gerund2 = GERUNDWORD (SPACE "{" "GER" "UND"? "}")?
 
 
 
