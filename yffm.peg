@@ -100,7 +100,7 @@ singularverb = singularverb1 / "(" singularverb1 ")"
 
 singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunction SPACE singularverb2 / (singularverb2 COMMA SPACE (singularverb2 COMMA SPACE)+ conjunction SPACE)? singularverb2
 
-singularverb2 = (singularverb3 / "(" singularverb3 ")") SPACE prepositionalphrase?
+singularverb2 = (singularverb3 / "(" singularverb3 ")") (SPACE prepositionalphrase)?
 
 singularverb3 = (adverb SPACE)? singularverb4 (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
@@ -112,7 +112,7 @@ pluralverb = pluralverb1 / "(" pluralverb1 ")"
 
 pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 SPACE conjunction SPACE pluralverb2 / (pluralverb2 COMMA SPACE (pluralverb2 COMMA SPACE)+ conjunction SPACE)? pluralverb2
 
-pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") SPACE prepositionalphrase?
+pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") (SPACE prepositionalphrase)?
 
 pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
 
