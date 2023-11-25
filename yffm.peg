@@ -112,7 +112,7 @@ singularverb4 = SVERB (SPACE "{" "S"? "V" "ERB"? "}")?
 
 pluralverb = pluralverb1 / "(" pluralverb1 ")"
 
-pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 SPACE conjunction SPACE pluralverb2 / (pluralverb2 COMMA SPACE (pluralverb2 COMMA SPACE)+ conjunction SPACE)? pluralverb2
+pluralverb1 = phelpverb SPACE infinitivephrase1 / (pluralverb2 (SPACE / COMMA SPACE (pluralverb2 COMMA SPACE)+)? conjunction SPACE)? pluralverb2
 
 pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") (SPACE prepositionalphrase)?
 
