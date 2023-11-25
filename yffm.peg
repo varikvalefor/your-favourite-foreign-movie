@@ -85,13 +85,13 @@ gnoun = gnoun1 / "(" gnoun1 ")"
 
 gnoun1 = gnoun2 (COMMA SPACE (gnoun2 COMMA SPACE)* conjunction SPACE gnoun2)?
 
+gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")")
+
 # | ni'o le prije pe la'o glibau. Looking Glass Studios .glibau. cu cusku zoi glibau. hack hack hack .glibau.
 #
 # .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ga naja pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. cu na mutce le ka ce'u nelci le feglyzvi... kei je ku'i cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
 #
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
-gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")")
-
 gnoun2_5 = (ADJECTIVE / SNOUN / PNOUN) SPACE
 
 gnoun3 = (pluralnoun / singularnoun) (SPACE variable)? / variable
