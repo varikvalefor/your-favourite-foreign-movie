@@ -83,7 +83,7 @@ intquestion1 = shelpverb SPACE singularnoun / phelpverb SPACE pluralnoun
 
 gnoun = gnoun1 / "(" gnoun1 ")"
 
-gnoun1 = gnoun2 ((SPACE gnoun2 COMMA)* SPACE conjunction SPACE gnoun2)?
+gnoun1 = gnoun2 ((SPACE / COMMA SPACE (gnoun2 COMMA SPACE)+)? conjunction SPACE gnoun2)?
 
 gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")") / gnoun2_5 gnoun2
 
