@@ -85,7 +85,7 @@ gnoun = gnoun1 / "(" gnoun1 ")"
 
 gnoun1 = gnoun2 ((gnoun2 COMMA SPACE)* conjunction SPACE gnoun2)?
 
-gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")")
+gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")") / gnoun2_5 gnoun2
 
 # | ni'o le prije pe la'o glibau. Looking Glass Studios .glibau. cu cusku zoi glibau. hack hack hack .glibau.
 #
