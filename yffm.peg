@@ -246,7 +246,7 @@ article = ARTICLE (SPACE "{ART" "ICLE"? "}")?
 
 
 
-squote = SQUOTE (SPACE "{SQUOTE}")?
+squote = SQUOTE (SPACE "{" "S"? "QUOTE}")?
 
 
 
@@ -258,7 +258,7 @@ name = (NAME / "(" NAME ")") (SPACE "{NAME}")?
 
 
 
-pquote = PQUOTE (SPACE "{PQUOTE}")?
+pquote = PQUOTE (SPACE "{" "P"? "QUOTE}")?
 
 
 
