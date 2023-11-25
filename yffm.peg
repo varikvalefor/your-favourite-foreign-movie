@@ -276,7 +276,7 @@ adverb = adverb1+ / "(" adverb1+ ")"
 
 adverb1 = adverb2 (SPACE prepositionalphrase)?
 
-adverb2 = adverb3 ((SPACE / (COMMA SPACE adverb3)+) conjunction SPACE adverb3)?
+adverb2 = adverb3 ((SPACE / COMMA SPACE (adverb3 COMMA SPACE)+) conjunction SPACE adverb3)?
 
 adverb3 = adverb4 / "(" adverb ")"
 
