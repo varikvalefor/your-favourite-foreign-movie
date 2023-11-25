@@ -100,7 +100,7 @@ gnoun3 = (pluralnoun / singularnoun) (SPACE variable)? / variable
 
 singularverb = singularverb1 / "(" singularverb1 ")"
 
-singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunction SPACE singularverb2 / singularverb2 (COMMA SPACE (singularverb2 COMMA SPACE)+ conjunction SPACE singularverb2)?
+singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 SPACE conjunction SPACE singularverb2 / singularverb2 ((SPACE / COMMA SPACE (singularverb2 COMMA SPACE)+) conjunction SPACE singularverb2)?
 
 singularverb2 = (singularverb3 / "(" singularverb3 ")") (SPACE prepositionalphrase)?
 
