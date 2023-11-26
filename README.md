@@ -11,7 +11,7 @@ ni'o la .varik. cu troci...
 
 * lo nu tu'a ko'a cu filri'a lo nu sampu ciksi ja skicu lo pluja fo lo sampu kei kei je
 
-* lo nu frili fa lo nu jimpe fi lo te gerna be fi ko'a kei kei je
+* lo nu frili fa lo nu jimpe fi lo te gerna be fi ko'a kei kei
 
 * je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e selma'o bo cmene ku po'o
 
