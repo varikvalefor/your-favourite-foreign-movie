@@ -13,7 +13,7 @@ ni'o la .varik. cu troci...
 
 * lo nu frili fa lo nu jimpe fi lo te gerna be fi ko'a kei kei
 
-* je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e selma'o bo cmene ku po'o
+* je nai lo nu la .varik. cu pilno lo cacklu pe'a ru'e cmene be lo selma'o be'o ku po'o
 
 ## English
 "`A`" denotes `your favourite foreign movie`.
