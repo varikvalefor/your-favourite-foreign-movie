@@ -9,7 +9,7 @@ ni'o la .varik. cu troci...
 
 * lo nu ko'a lojysarxe kei je
 
-* lo nu tu'a ko'a cu filri'a lo nu sampu cusku lo plujava'i kei kei je
+* lo nu tu'a ko'a cu filri'a lo nu sampu cusku lo pluja kei kei je
 
 * lo nu frili fa lo nu jimpe fi lo te gerna be fi ko'a kei kei je
 
