@@ -336,7 +336,7 @@ CONJUNCTION = ("BUT" / "AND") ((SPACE / "-") "NOT")? / "OR" / "JI"
 
 
 
-# | ni'o zo'oi .PUQUANTIFIER. cmavlaka'i lu zoi glibau. POTENTIALLY UNIVERSAL QUALIFIER .glibau.
+# | ni'o zo'oi .PUQUANTIFIER. cmavlaka'i zoi glibau. POTENTIALLY UNIVERSAL QUALIFIER .glibau.
 PUQUANTIFIER = "FOR" SPACE ("ALL" / "SOME" / "MANY")
 
 
