@@ -223,7 +223,7 @@ postulate
              → c cu-cmene x
              → xamsku-je-sitsku-fa c
              → mo'ifrili la-varik c x
-             → la-varik cu-nelci_ $ c cu-cmene x
+             → la-varik cu-nelci_ $ le-su'u $ c cu-cmene x
 \end{code}
 
 \section{le ctaipe / The Proof}
