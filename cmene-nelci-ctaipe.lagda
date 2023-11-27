@@ -87,7 +87,7 @@ VARIK likes that ``\texttt{your favourite foreign movie}'' is the name of the En
 
 	$C$ is a joke/reference.
 
-	VARIK finds that easy is that VARIK remembers that $C$ is the name of $Y$
+	VARIK finds that easy is that VARIK remembers that $C$ is the name of $Y$.
 
 	Therefore, VARIK likes that $C$ is the name of $Y$.
 \end{proof}
