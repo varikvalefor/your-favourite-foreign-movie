@@ -223,7 +223,7 @@ postulate
              → c cu-cmene x
              → xamsku-je-sitsku-fa c
              → mo'ifrili la-varik c x
-             → la-varik cu-nelci (c cu-cmene x)
+             → la-varik cu-nelci_ $ c cu-cmene x
 \end{code}
 
 \section{le ctaipe / The Proof}
@@ -235,7 +235,7 @@ If the reader not understands about the Agda definition, then if the reder desir
 
 \begin{code}
 
-iifcmenynelci : la-varik cu-nelci (le-su'u (le-cmene cu-cmene la-skina))
+iifcmenynelci : la-varik cu-nelci_ $ le-su'u $ le-cmene cu-cmene la-skina
 iifcmenynelci = cmenynelci iifcmenes iifcmexam iifrilits
   where
   postulate
