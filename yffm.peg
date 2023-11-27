@@ -104,9 +104,7 @@ singularverb1 = shelpverb SPACE infinitivephrase1 / singularverb2 ((SPACE / COMM
 
 singularverb2 = (singularverb3 / "(" singularverb3 ")") (SPACE prepositionalphrase)?
 
-singularverb3 = (adverb SPACE)? singularverb4 (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
-
-singularverb4 = SVERB (SPACE "{" "S"? "V" "ERB"? "}")?
+singularverb3 = (adverb SPACE)? sverb (SPACE adverb)? / adverb SPACE "(" singularverb3 ")"
 
 
 
@@ -116,9 +114,7 @@ pluralverb1 = phelpverb SPACE infinitivephrase1 / pluralverb2 (pluralverb2 (SPAC
 
 pluralverb2 = (pluralverb3 / "(" pluralverb3 ")") (SPACE prepositionalphrase)?
 
-pluralverb3 = (adverb SPACE)? pluralverb4 (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
-
-pluralverb4 = PVERB (SPACE "{" "S"? "V" "ERB"? "}")?
+pluralverb3 = (adverb SPACE)? pverb (SPACE adverb)? / adverb SPACE "(" pluralverb3 ")"
 
 
 
@@ -263,6 +259,14 @@ pquote = PQUOTE (SPACE "{" "P"? "QUOTE}")?
 
 
 pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}")?
+
+
+
+sverb = SVERB (SPACE "{" "S"? "V" "ERB"? "}")?
+
+
+
+pverb = PVERB (SPACE "{" "P"? "V" "ERB"? "}")?
 
 
 
