@@ -55,7 +55,7 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi gl
 
 \subsection{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
-ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u le tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
+ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u lo tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
 That (labels of proofs resemble labels of paragraphs) justifies that VARIK uses \texttt{subsection} and not \texttt{paragraph}.
