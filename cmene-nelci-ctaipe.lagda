@@ -166,7 +166,7 @@ le-cmene = "your favourite foreign movie"
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-cmene\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-cmene}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cmene la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-cmene}\ \B b\ .zoi.\ gi la'oi .\B a.\ cmene la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a\ \OpP{cu-nelci}\ \B b\ exists iff \B a\ is the name of \B b.
@@ -177,7 +177,7 @@ postulate _cu-cmene_ : ∀ {a} → {A : Set a} → String → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-nelci}\ \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a\ \OpP{cu-nelci}\ \B b\ .zoi.\ gi la'oi .\B a.\ nelci la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a\ \OpP{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
@@ -188,7 +188,7 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku}\ \B b\ .zoi.\ gi xamsku je sitsku la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku}\ \B b\ .zoi.\ gi xamsku je sitsku la'oi .\B b.
 
 \paragraph{English}
 A proof of \AgdaPostulate{xamsku-je-sitsku} \B b\ exists iff \B b\ is a joke/reference.
@@ -199,7 +199,7 @@ postulate xamsku-je-sitsku : String → Set
 
 \subsection{la .\AgdaPostulate{mo'ifrili}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili ko'a goi la'o zoi.\ \B a\ .zoi.\ fa lo nu ko'a morji lo du'u la'o zoi.\ \B b\ .zoi.\ cmene la'o zoi.\ \B c\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili ko'a goi la'oi .\B a.\ fa lo nu ko'a morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
 
 \paragraph{English}
 A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff \B a\ finds that easy is that \B a\ remembers that \B b\ is the name of \B c.
