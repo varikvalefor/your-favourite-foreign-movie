@@ -262,7 +262,7 @@ pquote = PQUOTE (SPACE "{" "P"? "QUOTE}")?
 
 
 
-pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}" )?
+pnoun = PNOUN (SPACE "{" "P"? "N" "OUN"? "}")?
 
 
 
