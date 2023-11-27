@@ -186,15 +186,15 @@ A proof of \B a\ \OpP{cu-nelci}\ \B b\ exists iff \B a\ likes \B b.
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku-fa}\ \B b\ .zoi.\ gi xamsku je sitsku la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{xamsku-je-sitsku}\ \B b\ .zoi.\ gi xamsku je sitsku la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \AgdaPostulate{xamsku-je-sitsku-fa} \B b\ exists iff \B b\ is a joke/reference.
+A proof of \AgdaPostulate{xamsku-je-sitsku} \B b\ exists iff \B b\ is a joke/reference.
 
 \begin{code}
-postulate xamsku-je-sitsku-fa : String → Set
+postulate xamsku-je-sitsku : String → Set
 \end{code}
 
 \subsection{la .\AgdaPostulate{mo'ifrili}.}
@@ -221,7 +221,7 @@ postulate
              → {x : A}
              → {c : String}
              → c cu-cmene x
-             → xamsku-je-sitsku-fa c
+             → xamsku-je-sitsku c
              → mo'ifrili la-varik c x
              → la-varik cu-nelci_ $ le-su'u $ c cu-cmene x
 \end{code}
@@ -240,7 +240,7 @@ iifcmenynelci = cmenynelci iifcmenes iifcmexam iifrilits
   where
   postulate
     iifcmenes : le-cmene cu-cmene la-skina
-    iifcmexam : xamsku-je-sitsku-fa le-cmene
+    iifcmexam : xamsku-je-sitsku le-cmene
     iifrilits : mo'ifrili la-varik le-cmene la-skina
 \end{code}
 \end{document}
