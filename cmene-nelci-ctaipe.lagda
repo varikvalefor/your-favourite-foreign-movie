@@ -40,7 +40,7 @@
 \newcommand\B\AgdaBound
 \newcommand\OpP[1]{\AgdaOperator{AgdaPostulate{#1}}}
 
-\title{le ctaipe be le su'u la .varik.\ cu nelci le cmene be le gerna be le glibau be la .varik.\ / The Proof of that VARIK Likes the Name of the English Grammar which is Used by VARIK}
+\title{le ctaipe be le su'u la .varik.\ cu nelci le cmene be le gerna be le glibau be la .varik.\ / The Proof of that VARIK Likes the Name of the Grammar of the English Language which is Used by VARIK}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
