@@ -122,7 +122,7 @@ singularnoun = singularnoun1 ((SPACE / COMMA SPACE (singularnoun1 COMMA SPACE)+)
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
-singularnoun2 = (singularnoun3 / "(" singularnoun3 ")") (SPACE eggphrase)?
+singularnoun2 = (singularnoun3 / "(" singularnoun3 ")") eggphrase?
 
 singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativeclause / prepositionalphrase))?
 
@@ -138,7 +138,7 @@ pluralnoun = pluralnoun1 ((SPACE / COMMA SPACE (pluralnoun1 COMMA SPACE)+) conju
 
 pluralnoun1 = pluralnoun2 / "(" pluralnoun2 ")"
 
-pluralnoun2 = (pluralnoun3 / "(" pluralnoun3 ")") (SPACE eggphrase)?
+pluralnoun2 = (pluralnoun3 / "(" pluralnoun3 ")") eggphrase?
 
 pluralnoun3 = (pluralnoun4 / "(" pluralnoun4 ")") (SPACE (pluralrelativeclause / prepositionalphrase))?
 
