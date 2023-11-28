@@ -318,7 +318,7 @@ paragraphheader = gnoun "." INTERSENTENCESPACE
 
 
 
-namelist = name ((SPACE / (COMMA SPACE (name COMMA SPACE)+)) SPACE conjunction name)?
+namelist = name ((SPACE / (COMMA SPACE (name COMMA SPACE)+)) conjunction name)?
 
 
 
