@@ -237,7 +237,7 @@ conjunction = CONJUNCTION (SPACE "{" "CON" "JUNCTION"? "}")?
 
 
 # | ni'o la .varik. cu zukyjdipei lo ka ce'u me'oi .merge. la'oi .article. la'oi .adjective.
-# .i ku'i lo me'oi .article. cu na prane le ke ce'u smimlu lo me'oi .adjective.  .i cadga fa lo nu lo me'oi .article. cu lidne lo me'oi .adjective.
+# .i ku'i lo me'oi .article. cu na prane le ka ce'u smimlu lo me'oi .adjective.  .i cadga fa lo nu lo me'oi .article. cu lidne lo me'oi .adjective.
 article = ARTICLE (SPACE "{ART" "ICLE"? "}")?
 
 
