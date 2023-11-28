@@ -294,7 +294,7 @@ infinitivephrase1 = SPACE infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
 
 
 
-eggphrase = COMMA SPACE (eggphrase1 SPACE eggphrase2 / eggphrase2 SPACE eggphrase1 / eggphrase1 / eggphrase2)
+eggphrase = COMMA SPACE (eggphrase1 / eggphrase2 / eggphrase1 SPACE eggphrase2 / eggphrase2 SPACE eggphrase1)
 
 eggphrase1 = eggword COMMA SPACE gnoun COMMA
 
