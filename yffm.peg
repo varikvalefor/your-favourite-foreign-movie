@@ -290,7 +290,7 @@ adverb4 = ADVERB (SPACE "{" "ADV" "ERB"? "}")?
 
 infinitivephrase = "TO" infinitivephrase1
 
-infinitivephrase1 = SPACE infinitive (SPACE gnoun)? (SPACE prepositionalphrase)?
+infinitivephrase1 = SPACE infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
 
 
 
