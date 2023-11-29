@@ -312,7 +312,7 @@ gerundword = GERUNDWORD (SPACE "{" "GER" "UND"? "}")?
 
 
 
-number = DIGIT+ ("." DIGIT+)? / latexpression
+number = DIGIT+ (("." / "/") DIGIT+)? / latexpression
 
 
 
