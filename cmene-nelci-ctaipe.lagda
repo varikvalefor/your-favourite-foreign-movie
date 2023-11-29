@@ -63,10 +63,10 @@ That (labels of proofs resemble labels of paragraphs) justifies that VARIK uses 
 \subsection{la .lojban.}
 ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be ko'e goi le glibau be la .varik.\ kei ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ro de poi ke'a cmene da zo'u ga janai la .varik.\ cu nelci lo su'u de cmene da gi ga je xamsku je sitsku da gi frili fa lo nu la .varik.\ cu morji lo du'u de cmene da gi
 	\item ga je ko'a cmene ko'e gi
 	\item ga je xamsku je sitsku ko'a gi
-	\item frili la .varik.\ fa lo nu la .varik.\ cu morji lo du'u ko'a cmene ko'e
+	\item ga je frili la .varik.\ fa lo nu la .varik.\ cu morji lo du'u ko'a cmene ko'e gi
+	\item ro da zo'u ro de poi ke'a cmene da zo'u ga janai la .varik.\ cu nelci lo su'u de cmene da gi ga je xamsku je sitsku da gi frili fa lo nu la .varik.\ cu morji lo du'u de cmene da
 \end{itemize}
 
 \subsection{English}
