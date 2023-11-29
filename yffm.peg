@@ -187,9 +187,7 @@ gerund1 = (adverb SPACE)? gerundword prepositionalphrase? (SPACE gnoun)?
 
 prepositionalphrase = prepositionalphrase1 / "(" prepositionalphrase1 ")"
 
-prepositionalphrase1 = prepositionalphrase2 SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
-
-prepositionalphrase2 = PREPOSITION (SPACE "{PREP" "OSITION"? "}")?
+prepositionalphrase1 = preposition SPACE gnoun (SPACE conjunction SPACE prepositionalphrase1)?
 
 
 
@@ -303,6 +301,10 @@ eggphrase2 = akaword SPACE gnoun
 eggword = EG (SPACE "{EG}")?
 
 akaword = AKA (SPACE "{AKA}") ?
+
+
+
+preposition = PREPOSITION (SPACE "{PREP" "OSITION"? "}")?
 
 
 
