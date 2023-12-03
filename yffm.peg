@@ -64,12 +64,14 @@ clause1 = pluralclause / singularclause / intquestion
 
 singularclause = singularclause1 / "(" singularclause1 ")"
 
+# ni'o la .varik. cu stidi lo nu ci'au .o'i le su'u lakne fa lo nu su'o da poi glibau ke'a zo'u cfipu da fa lo nu lo me'oi .singularclause1. ja co'e cu na vasru lo me'oi .singularnoun. ja co'e... kei noi ke'a nibli ko'a goi lo nu nu na jufra me'oi .subject. lo jufra  .i ga je la .varik. cu na tolnei gi ku'i ga je la janbe je zo'e cu ci'au .o'i ko'a gi la .varik. cu djica lo nu frili fa lo nu jimpe fi lo te gerna be ko'a goi le glibau be la .varik... kei kei je ku'i cu toldji lo nu ko'a banzuka le ka ce'u sampu kei lo nu nandu fa lo nu skicu ja ciksi lo pluja fo ko'a bau ko'a
 singularclause1 = (singularnoun SPACE)? singulardependentclause
 
 
 
 pluralclause = pluralclause1 / "(" pluralclause1 ")"
 
+# ni'o le pinka be la'oi .singularclause1. cu srana
 pluralclause1 = (pluralnoun SPACE)? pluraldependentclause
 
 
