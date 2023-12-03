@@ -17,7 +17,7 @@ conditional1 = conditional2 / conditional3
 
 conditional2 = conditional4 SPACE logiconjunction SPACE conditional4
 
-conditional3 = logiconjunction SPACE conditional4 COMMA SPACE THEN SPACE conditional4
+conditional3 = logiconjunction SPACE (conditional4 / supersentence) COMMA SPACE THEN SPACE (conditional4 / supersentence)
 
 conditional4 = compoundsentence / "(" compoundsentence ")" / "(" supersentence ")"
 
