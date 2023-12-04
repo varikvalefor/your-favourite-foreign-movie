@@ -71,7 +71,7 @@ singularclause1 = (singularnoun SPACE)? singulardependentclause
 
 pluralclause = pluralclause1 / "(" pluralclause1 ")"
 
-# ni'o le pinka be la'oi .singularclause1. cu srana
+# ni'o srana fa le pinka be la'oi .singularclause1.
 pluralclause1 = (pluralnoun SPACE)? pluraldependentclause
 
 
