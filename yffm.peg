@@ -35,7 +35,7 @@ compoundsentence1 = noncompoundsentence ((COMMA SPACE conjunction / ";") SPACE c
 
 
 
-quantifier = quantifier1 SPACE gnoun (SPACE variable)? COMMA
+quantifier = quantifier1 SPACE (variable / gnoun (SPACE variable))? COMMA
 
 quantifier1 = PUQUANTIFIER (SPACE "{" ("PQ" / "PUQUANTIFIER") "}")?
 
