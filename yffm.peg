@@ -305,6 +305,8 @@ eggphrase1 = eggword COMMA SPACE gnoun
 
 eggphrase2 = akaword SPACE gnoun
 
+# | ni'o xu cadga fa lo nu vimcu
+# .i to'e cafne fa lo nu la .varik. cu pilno zoi glibau. E.G. .glibau.
 eggword = EG (SPACE "{EG}")?
 
 akaword = AKA (SPACE "{AKA}") ?
