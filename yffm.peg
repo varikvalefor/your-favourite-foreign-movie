@@ -48,7 +48,7 @@ introductory1 = conjunction SPACE / (conjunction COMMA SPACE)? (introporw COMMA 
 
 
 
-noncompoundsentence = clause / INTERJECTION / LATEXCLAUSE
+noncompoundsentence = clause / interjection / LATEXCLAUSE
 
 
 
@@ -192,7 +192,7 @@ prepositionalphrase1 = preposition SPACE gnoun (SPACE conjunction SPACE preposit
 
 
 
-introporw = INTERJECTION / prepositionalphrase / gerund
+introporw = interjection / prepositionalphrase / gerund
 
 
 
@@ -322,6 +322,10 @@ gerundword = GERUNDWORD (SPACE "{" "GER" "UND"? "}")?
 
 
 number = DIGIT+ (("." / "/") DIGIT+)? / latexpression
+
+
+
+interjection = INTERJECTION
 
 
 
