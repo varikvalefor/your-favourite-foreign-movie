@@ -123,6 +123,7 @@ pluralverb4 = (adverb SPACE)? pverb (SPACE adverb)? / adverb SPACE (pluralverb3 
 
 
 
+# ni'o tu'a le me'oi .conjunction. co'e cu filri'a lo nu gerna fi zo'e je zoi glibau. 1, 2, OR 3 IS THE SQUARE ROOT OF 4. .glibau. noi gendu'i zoi glibau. AN APPLE .glibau. fa zoi glibau. 1, 2, OR 3 .glibau. po ke'a
 singularnoun = singularnoun1 ((SPACE / COMMA SPACE (singularnoun1 COMMA SPACE)+) conjunction SPACE singularnoun1)?
 
 singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
