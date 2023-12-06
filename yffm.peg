@@ -60,7 +60,7 @@ clause1 = pluralclause / singularclause / intquestion
 
 singularclause = singularclause1 / "(" singularclause1 ")"
 
-# ni'o la .varik. cu stidi lo nu ci'au .o'i ko'a goi le su'u lakne fa lo nu su'o da poi glibau ke'a zo'u cfipu da fa lo nu lo me'oi .singularclause1. ja co'e cu na vasru lo me'oi .singularnoun. ja co'e... kei noi ke'a nibli lo nu na jufra me'oi .subject. lo jufra  .i ga je la .varik. cu na tolnei gi ku'i ga je la janbe je zo'e cu ci'au .o'i ko'a gi la .varik. cu djica lo nu frili fa lo nu jimpe fi lo te gerna be ko'a goi le glibau be la .varik... kei kei je ku'i cu toldji lo nu ko'a banzuka le ka ce'u sampu kei lo nu nandu fa lo nu skicu ja ciksi lo pluja fo ko'a bau ko'a
+# ni'o la .varik. cu stidi lo nu ci'au .o'i ko'a goi le su'u lakne fa lo nu su'o da poi glibau ke'a zo'u cfipu da fa lo nu lo me'oi .singularclause1. ja co'e cu na vasru lo me'oi .singularnoun. ja co'e... kei noi ke'a nibli lo nu na jufra me'oi .subject. lo jufra  .i ga je la .varik. na tolnei gi ku'i ga je la janbe je zo'e cu ci'au .o'i ko'a gi la .varik. cu djica lo nu frili fa lo nu jimpe fi lo te gerna be ko'a goi le glibau be la .varik... kei kei je ku'i cu toldji lo nu ko'a banzuka le ka ce'u sampu kei lo nu nandu fa lo nu skicu ja ciksi lo pluja fo ko'a bau ko'a
 singularclause1 = (singularnoun SPACE)? singularpredicate
 
 
@@ -90,7 +90,7 @@ gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")") / gnoun2_5 gnoun2
 
 # | ni'o le prije pe la'o glibau. Looking Glass Studios .glibau. cu cusku zoi glibau. hack hack hack .glibau.
 #
-# .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ga naja pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. cu na mutce le ka ce'u nelci le feglyzvi  .i ku'i la .varik. cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
+# .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ga naja pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. na mutce le ka ce'u nelci le feglyzvi  .i ku'i la .varik. cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
 #
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
 gnoun2_5 = (ADJECTIVE / SNOUN / PNOUN) SPACE
@@ -245,7 +245,7 @@ conjunction = CONJUNCTION (SPACE "{" "CON" "JUNCTION"? "}")?
 
 
 # | ni'o la .varik. cu zukyjdipei lo ka ce'u me'oi .merge. la'oi .article. la'oi .adjective.
-# .i ku'i lo me'oi .article. cu na prane le ka ce'u smimlu lo me'oi .adjective.  .i cadga fa lo nu lo me'oi .article. cu lidne lo me'oi .adjective.  .i lakne fa lo nu lo so'i se glibau cu tolnei zoi glibau. SHITTY THE CHAIR .glibau. ja cu sruma le du'u zo'oi .SHITTY. co'e ja cmene lo stizu
+# .i ku'i lo me'oi .article. na prane le ka ce'u smimlu lo me'oi .adjective.  .i cadga fa lo nu lo me'oi .article. cu lidne lo me'oi .adjective.  .i lakne fa lo nu lo so'i se glibau cu tolnei zoi glibau. SHITTY THE CHAIR .glibau. ja cu sruma le du'u zo'oi .SHITTY. co'e ja cmene lo stizu
 article = ARTICLE (SPACE "{ART" "ICLE"? "}")?
 
 
@@ -296,8 +296,8 @@ adverb4 = ADVERB (SPACE "{" "ADV" "ERB"? "}")?
 
 
 
-# ni'o cadga fa lo nu ma selma'o pe'a ru'e ko'a goi zo'oi .TO. po le glibau  .i ga je mutce le ka ce'u fegli la .varik. kei fa le su'u no da zo'u ko'a cmavo pe'a ru'e da gi ku'i la .varik. cu na birti lo du'u zabna fa lo su'u ma kau selma'o pe'a ru'e ko'a
-# .i la .varik. cu milxe le ka ce'u toldji lo nu la .varik. cu pilno lo me'oi .infinitive.  .i krinu la'e di'u fa zo'e ja le su'u ga je la .varik. cu na birti lo du'u cadga fa lo nu ma selma'o pe'a ru'e ko'a gi fegli la .varik. fa lo nu pilno lo valsi poi na birti lo du'u ma kau selma'o ke'a
+# ni'o cadga fa lo nu ma selma'o pe'a ru'e ko'a goi zo'oi .TO. po le glibau  .i ga je mutce le ka ce'u fegli la .varik. kei fa le su'u no da zo'u ko'a cmavo pe'a ru'e da gi ku'i la .varik. na birti lo du'u zabna fa lo su'u ma kau selma'o pe'a ru'e ko'a
+# .i la .varik. cu milxe le ka ce'u toldji lo nu la .varik. cu pilno lo me'oi .infinitive.  .i krinu la'e di'u fa zo'e ja le su'u ga je la .varik. na birti lo du'u cadga fa lo nu ma selma'o pe'a ru'e ko'a gi fegli la .varik. fa lo nu pilno lo valsi poi na birti lo du'u ma kau selma'o ke'a
 infinitivephrase = "TO" infinitivephrase1
 
 infinitivephrase1 = SPACE infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
@@ -385,7 +385,7 @@ INTERSENTENCESPACE = "  " / "\n"+
 
 
 
-# | ni'o ga je ko'a goi zo'oi .EMOTICON. na prane le ka ce'u mapti gi ku'i la .varik. cu na birti lo du'u ma kau zmadu ko'a le ka ce'u mapti
+# | ni'o ga je ko'a goi zo'oi .EMOTICON. na prane le ka ce'u mapti gi ku'i la .varik. na birti lo du'u ma kau zmadu ko'a le ka ce'u mapti
 # .i ranji fa le nu la .varik. cu djica curmi lo nu pinka
 EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi" / "lol no" / "chicle"
 
@@ -407,7 +407,7 @@ COMMA = ","
 #
 # .i ko'e na basyvla ni'i le su'u ga je ro da poi ke'a basyvla zo'u su'o da poi ke'a sumti zo'u da smudu'i de gi ko'e smudu'i lo no sumti
 #
-# .i ku'i la .varik. cu na jinvi le du'u su'o da poi ke'a cacklu pe'a ru'e je ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
+# .i ku'i la .varik. na jinvi le du'u su'o da poi ke'a cacklu pe'a ru'e je ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
 RELCLAUSEOPENER = "WHICH" / "WHAT"
 
 
