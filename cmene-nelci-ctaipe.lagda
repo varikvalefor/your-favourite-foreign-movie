@@ -100,7 +100,12 @@ open import Function
     id to le-su'u
   )
 open import Data.String
+  using (
+    String
+  )
 open import Relation.Nullary
+  using (
+  )
 \end{code}
 
 \section{le jicmu ja co'e / The Basic}
