@@ -61,14 +61,14 @@ clause1 = pluralclause / singularclause / intquestion
 singularclause = singularclause1 / "(" singularclause1 ")"
 
 # ni'o la .varik. cu stidi lo nu ci'au .o'i ko'a goi le su'u lakne fa lo nu su'o da poi glibau ke'a zo'u cfipu da fa lo nu lo me'oi .singularclause1. ja co'e cu na vasru lo me'oi .singularnoun. ja co'e... kei noi ke'a nibli lo nu na jufra me'oi .subject. lo jufra  .i ga je la .varik. cu na tolnei gi ku'i ga je la janbe je zo'e cu ci'au .o'i ko'a gi la .varik. cu djica lo nu frili fa lo nu jimpe fi lo te gerna be ko'a goi le glibau be la .varik... kei kei je ku'i cu toldji lo nu ko'a banzuka le ka ce'u sampu kei lo nu nandu fa lo nu skicu ja ciksi lo pluja fo ko'a bau ko'a
-singularclause1 = (singularnoun SPACE)? singulardependentclause
+singularclause1 = (singularnoun SPACE)? singularpredicate
 
 
 
 pluralclause = pluralclause1 / "(" pluralclause1 ")"
 
 # ni'o srana fa le pinka be la'oi .singularclause1.
-pluralclause1 = (pluralnoun SPACE)? pluraldependentclause
+pluralclause1 = (pluralnoun SPACE)? pluralpredicate
 
 
 
@@ -151,31 +151,31 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 
 
-pluraldependentclause = pluraldependentclause1 ((SPACE / COMMA SPACE (pluraldependentclause1 COMMA SPACE)+) conjunction SPACE pluraldependentclause1)?
+pluralpredicate = pluralpredicate1 ((SPACE / COMMA SPACE (pluralpredicate1 COMMA SPACE)+) conjunction SPACE pluralpredicate1)?
 
-pluraldependentclause1 = (pluraldependentclause2 / "(" pluraldependentclause2 ")") (SPACE prepositionalphrase)?
+pluralpredicate1 = (pluralpredicate2 / "(" pluralpredicate2 ")") (SPACE prepositionalphrase)?
 
-pluraldependentclause2 = pluralverb (SPACE gnoun)?
+pluralpredicate2 = pluralverb (SPACE gnoun)?
 
 
 
-singulardependentclause = singulardependentclause1 ((SPACE / COMMA SPACE (singulardependentclause COMMA SPACE)+) conjunction SPACE singulardependentclause)?
+singularpredicate = singularpredicate1 ((SPACE / COMMA SPACE (singularpredicate COMMA SPACE)+) conjunction SPACE singularpredicate)?
 
-singulardependentclause1 = (singulardependentclause2 / "(" singulardependentclause2 ")") prepositionalphrase?
+singularpredicate1 = (singularpredicate2 / "(" singularpredicate2 ")") prepositionalphrase?
 
-singulardependentclause2 = singularverb (SPACE gnoun)?
+singularpredicate2 = singularverb (SPACE gnoun)?
 
 
 
 pluralrelativeclause = pluralrelativeclause1 / COMMA SPACE pluralrelativeclause1 COMMA
 
-pluralrelativeclause1 = relclauseopener SPACE pluraldependentclause
+pluralrelativeclause1 = relclauseopener SPACE pluralpredicate
 
 
 
 singularrelativeclause = singularrelativeclause1 / COMMA SPACE singularrelativeclause1 COMMA
 
-singularrelativeclause1 = relclauseopener SPACE singulardependentclause
+singularrelativeclause1 = relclauseopener SPACE singularpredicate
 
 
 
