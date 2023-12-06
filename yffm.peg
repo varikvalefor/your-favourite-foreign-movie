@@ -406,7 +406,7 @@ COMMA = ","
 #
 # .i ko'e na basyvla ni'i le su'u ga je ro da poi ke'a basyvla zo'u su'o da poi ke'a sumti zo'u da smudu'i de gi ko'e smudu'i lo no sumti
 #
-# .i ku'i la .varik. cu na jinvi le du'u su'o da poi ke'a cacklu pe'a ru'e ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
+# .i ku'i la .varik. cu na jinvi le du'u su'o da poi ke'a cacklu pe'a ru'e je ke glibau selma'o cmene zo'u da xamgu basti zo'oi .RELCLAUSEOPENER. ja zo'e
 RELCLAUSEOPENER = "WHICH" / "WHAT"
 
 
