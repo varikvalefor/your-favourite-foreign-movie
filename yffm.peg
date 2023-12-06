@@ -153,17 +153,17 @@ pluralnoun6 = adjective / pquote / pnoun / namelist / number
 
 pluralpredicate = pluralpredicate1 ((SPACE / COMMA SPACE (pluralpredicate1 COMMA SPACE)+) conjunction SPACE pluralpredicate1)?
 
-pluralpredicate1 = (pluralpredicate2 / "(" pluralpredicate2 ")") (SPACE prepositionalphrase)?
+pluralpredicate1 = (pluralpredicate2 / "(" pluralpredicate2 ")")
 
-pluralpredicate2 = pluralverb (SPACE gnoun)?
+pluralpredicate2 = pluralverb (SPACE prepositionalphrase?) (SPACE gnoun)?
 
 
 
 singularpredicate = singularpredicate1 ((SPACE / COMMA SPACE (singularpredicate COMMA SPACE)+) conjunction SPACE singularpredicate)?
 
-singularpredicate1 = (singularpredicate2 / "(" singularpredicate2 ")") (SPACE prepositionalphrase)?
+singularpredicate1 = (singularpredicate2 / "(" singularpredicate2 ")")
 
-singularpredicate2 = singularverb (SPACE gnoun)?
+singularpredicate2 = singularverb (SPACE prepositionalphrase)? (SPACE gnoun)?
 
 
 
