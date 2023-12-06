@@ -25,10 +25,6 @@ conditional4 = compoundsentence / "(" compoundsentence ")" / "(" supersentence "
 
 
 
-logiconjunction = LOGICONJUNCTION (SPACE "{" ("LOGICONJUNCTION" / "LC") "}")?
-
-
-
 compoundsentence = (noncompoundsentence SPACE SUCHTHAT SPACE)* compoundsentence1
 
 compoundsentence1 = noncompoundsentence ((COMMA SPACE conjunction / ";") SPACE compoundsentence)?
@@ -207,6 +203,10 @@ clausen1 = clauseopener SPACE supersentence
 
 
 clauseopener = CLAUSEOPENER (SPACE "{" ("CO" / "CLAUSEOPENER") "}")?
+
+
+
+logiconjunction = LOGICONJUNCTION (SPACE "{" ("LOGICONJUNCTION" / "LC") "}")?
 
 
 
