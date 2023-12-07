@@ -201,7 +201,7 @@ postulate xamsku-je-sitsku : String → Set
 
 \subsection{la .\AgdaPostulate{mo'ifrili}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili ko'a goi la'oi .\B a.\ fa lo nu ko'a morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili la'oi .\B a.\ fa lo nu la'oi .\B a.\ morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
 
 \paragraph{English}
 A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff \B a\ finds that easy is that \B a\ remembers that \B b\ is the name of \B c.
