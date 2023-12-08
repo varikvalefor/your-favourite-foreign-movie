@@ -48,7 +48,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be le glibau be la .varik. / Contains the definition of the proof of that VARIK likes that ``\texttt{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be le glibau be la .varik. / Contains the definition of the proof of that VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
 \end{abstract}
 
 \section{le torveki / The Summary}
@@ -72,12 +72,12 @@ ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign m
 \subsection{English}
 
 \begin{thm}
-VARIK likes that ``\texttt{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
+VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
 \end{thm}
 \begin{proof}
 	${}$
 
-	$C$ is ``\texttt{your favourite foreign movie}''.
+	$C$ is ``\AgdaString{your favourite foreign movie}''.
 
 	$Y$ is the English grammar which is used by VARIK.
 
