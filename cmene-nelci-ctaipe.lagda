@@ -61,7 +61,7 @@ ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u l
 That (labels of proofs resemble labels of paragraphs) justifies that VARIK uses \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
-ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be ko'e goi le glibau be la .varik.\ kei ni'i le su'u\ldots
+ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign movie .glibau.\ cmene ko'e goi le gerna be le glibau be la .varik.\ kei ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je ko'a cmene ko'e gi
 	\item ga je xamsku je sitsku ko'a gi
