@@ -65,7 +65,7 @@ ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign m
 \begin{itemize}
 	\item ga je ko'a cmene ko'e gi
 	\item ga je xamsku je sitsku ko'a gi
-	\item ga je frili la .varik.\ fa lo nu la .varik.\ cu morji lo du'u ko'a cmene ko'e gi
+	\item ga je frili la .varik.\ fa lo nu la .varik.\ cu morji le du'u ko'a cmene ko'e gi
 	\item ro da zo'u ro de poi ke'a cmene da zo'u ga janai la .varik.\ cu nelci lo su'u de cmene da gi ga je xamsku je sitsku da gi frili fa lo nu la .varik.\ cu morji lo du'u de cmene da
 \end{itemize}
 
