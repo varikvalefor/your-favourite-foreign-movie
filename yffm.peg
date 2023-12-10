@@ -130,7 +130,7 @@ singularnoun1 = singularnoun2 / "(" singularnoun2 ")"
 
 singularnoun2 = (singularnoun3 / "(" singularnoun3 ")") eggphrase?
 
-singularnoun3 = singularnoun4 / "(" singularnoun4 ")" (SPACE (singularrelativeclause / prepositionalphrase))?
+singularnoun3 = (singularnoun4 / "(" singularnoun4 ")") (SPACE (singularrelativeclause / prepositionalphrase))?
 
 singularnoun4 = (clausen / singularnoun5 / infinitivephrase) (SPACE (singularrelativeclause / prepositionalphrase))?
 
