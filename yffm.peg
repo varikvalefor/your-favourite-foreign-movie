@@ -37,7 +37,7 @@ quantifier1 = PUQUANTIFIER (SPACE "{" ("PQ" / "PUQUANTIFIER") "}")?
 
 
 
-# ni'o xu cadga fa lo nu me'oi .merge. la'oi la'oi .gnoun. la'oi .variable.
+# ni'o cadga fa lo nu na me'oi .merge. la'oi la'oi .gnoun. la'oi .variable. kei ki'u le su'u djica lo nu gerna fi zoi glibau. A THING $A$ .glibau. jenai zoi glibau. A THING A CHAIR .glibau.
 variable = VARIABLE (SPACE "{" "VAR" "IABLE"? "}")?
 
 
