@@ -90,7 +90,7 @@ gnoun2 = gnoun2_5? (gnoun3 / "(" gnoun2 ")") / gnoun2_5 gnoun2
 
 # | ni'o le prije pe la'o glibau. Looking Glass Studios .glibau. cu cusku zoi glibau. hack hack hack .glibau.
 #
-# .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ga naja pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. na mutce le ka ce'u nelci le feglyzvi  .i ku'i la .varik. cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
+# .i sarcu fa lo nu pilno le se feglyzvi je nai la'oi .adjective. kei ki'u le su'u ga naja pilno la'oi .adjective. gi zunle cmacnrekursi  .i la .varik. na mutce le ka ce'u nelci le se feglyzvi  .i ku'i la .varik. cu djica lo nu cumki fa lo nu lo me'oi .gnoun. cu vasru lo me'oi .parenthesis.
 #
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
 gnoun2_5 = (ADJECTIVE / SNOUN / PNOUN) SPACE
