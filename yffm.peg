@@ -4,7 +4,7 @@ text1 = supersentence ENDPUNCT+ / EMOTICON
 
 
 
-# | ni'o cumki fa lo nu lo nu lo me'oi .parenthesis. co'e cu vasru lo me'oi .supersentence. poi ke'a pagbu lo me'oi .clause. cu filri'a lo nu lo prenu poi ke'a na djuno le du'u pilno lo me'oi .parenthesis. lo nu me'oi .indicate. lo me'oi .grouping. kei je nai tu'a lo me'oi .parenthetical.
+# | ni'o cumki fa lo nu lo nu lo me'oi .parenthesis. co'e cu vasru lo me'oi .supersentence. poi ke'a pagbu lo sumvla pe'a je me'oi .clause. cu filri'a lo nu lo prenu poi ke'a na djuno le du'u pilno lo me'oi .parenthesis. lo nu me'oi .indicate. lo me'oi .grouping. kei je nai tu'a lo me'oi .parenthetical.
 supersentence = supersentence1 / "(" supersentence1 ")"
 
 supersentence1 = paragraphheader? introductory? (quantifier SPACE)* (compoundsentence / conditional)
