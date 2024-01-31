@@ -83,13 +83,13 @@ VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of th
 
 	$Y$ is the English grammar which is used by VARIK.
 
-	For all $A$, for all $B$, if $B$ is the name of $A$, then if $B$ is a joke/reference, then if VARIK finds that easy is that VARIK remembers that $B$ is the name of $A$, then VARIK likes that $B$ is the name of $A$.
+	For all $A$, for all $B$, if $B$ is the name of $A$, then if $B$ is a joke/reference, then if easy (for VARIK) is that VARIK remembers that that $B$ is the name of $A$, then VARIK likes that $B$ is the name of $A$.
 
 	$C$ is the name of $Y$.
 
 	$C$ is a joke/reference.
 
-	VARIK finds that easy is that VARIK remembers that $C$ is the name of $Y$.
+	Easy (for VARIK) is that VARIK remembers that $C$ is the name of $Y$.
 
 	Therefore, VARIK likes that $C$ is the name of $Y$.
 \end{proof}
@@ -206,7 +206,7 @@ postulate xamsku-je-sitsku : String → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili la'oi .\B a.\ fa lo nu la'oi .\B a.\ morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
 
 \paragraph{English}
-A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff \B a\ finds that easy is that \B a\ remembers that \B b\ is the name of \B c.
+A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff easy (for \B a) is that \B a remembers that \B b\ is the name of \B c.
 
 \begin{code}
 postulate mo'ifrili : ∀ {a} → {A : Set a} → Prenu → String → A → Set
