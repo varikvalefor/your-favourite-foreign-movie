@@ -25,7 +25,7 @@ conditional4 = compoundsentence / "(" compoundsentence ")" / "(" supersentence "
 
 
 
-compoundsentence = compoundsentence_prenex* compoundsentence1
+compoundsentence = compoundsentence1 / compoundsentence_prenex1 compoundsentence
 
 # ni'o tolcru tu'a ko'a goi zoi mabla. THING IS, THING IS, AND THING IS. .mabla. ki'u le su'u frili fa lo nu cusku lo jufra co me ko'a ja zo'e me'u poi nandu fa lo nu jimpe fi ke'a
 compoundsentence1 = noncompoundsentence ((COMMA SPACE conjunction / ";") SPACE compoundsentence)?
