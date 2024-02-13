@@ -33,7 +33,6 @@ compoundsentence1 = noncompoundsentence ((COMMA SPACE conjunction / ";") SPACE c
 compoundsentence_prenex = noncompoundsentence SPACE SUCHTHAT SPACE
 
 
-
 # ni'o cadga fa lo nu la'oi .gnoun. na basti pe'a la'oi .variable. kei ki'u le su'u djica lo nu gerna fi zoi glibau. A THING $A$ .glibau. jenai zoi glibau. A THING A CHAIR .glibau.
 variable = VARIABLE (SPACE "{" "VAR" "IABLE"? "}")?
 
