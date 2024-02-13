@@ -282,7 +282,7 @@ infinitive1 = INFINITIVE (SPACE ("{" "INF" "INITIVE"? "}"))?
 
 adverb = adverb1+ / "(" adverb1+ ")"
 
-adverb1 = adverb2 (SPACE prepositionalphrase)?
+adverb1 = (adverb2 / "(" adverb2 ")") (SPACE prepositionalphrase)?
 
 adverb2 = adverb3 ((SPACE / COMMA SPACE (adverb3 COMMA SPACE)+) conjunction SPACE adverb3)?
 
