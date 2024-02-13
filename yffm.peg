@@ -1,4 +1,4 @@
-text = text1 (text1 INTERSENTENCESPACE)*
+text = text1 (INTERSENTENCESPACE text1)*
 
 text1 = supersentence ENDPUNCT+ / EMOTICON
 
