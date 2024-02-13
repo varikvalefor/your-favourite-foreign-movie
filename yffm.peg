@@ -198,7 +198,7 @@ prepositionalphrase1 = preposition SPACE gnoun (SPACE conjunction SPACE preposit
 
 
 
-introporw = interjection / prepositionalphrase / gerund
+introporw = interjection / prepositionalphrase / gerund / adverb
 
 
 
