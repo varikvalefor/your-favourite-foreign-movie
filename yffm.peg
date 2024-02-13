@@ -7,7 +7,7 @@ text1 = supersentence ENDPUNCT+ / EMOTICON
 # | ni'o cumki fa lo nu lo nu lo me'oi .parenthesis. co'e cu vasru lo me'oi .supersentence. poi ke'a pagbu lo jufra sumvla pe'a cu filri'a lo nu lo prenu poi ke'a na djuno le du'u pilno lo me'oi .parenthesis. lo nu me'oi .indicate. lo me'oi .grouping. kei je nai tu'a lo me'oi .parenthetical.
 supersentence = supersentence1 / "(" supersentence1 ")"
 
-supersentence1 = paragraphheader? introductory? (quantifier SPACE)* (compoundsentence / conditional)
+supersentence1 = paragraphheader? introductory? (compoundsentence / conditional)
 
 
 
@@ -32,13 +32,7 @@ compoundsentence1 = noncompoundsentence ((COMMA SPACE conjunction / ";") SPACE c
 
 
 
-quantifier = quantifier1 SPACE (variable / gnoun (SPACE variable)?) COMMA
-
-quantifier1 = PUQUANTIFIER (SPACE "{" ("PQ" / "PUQUANTIFIER") "}")?
-
-
-
-# ni'o cadga fa lo nu na me'oi .merge. la'oi la'oi .gnoun. la'oi .variable. kei ki'u le su'u djica lo nu gerna fi zoi glibau. A THING $A$ .glibau. jenai zoi glibau. A THING A CHAIR .glibau.
+# ni'o cadga fa lo nu la'oi .gnoun. na basti pe'a la'oi .variable. kei ki'u le su'u djica lo nu gerna fi zoi glibau. A THING $A$ .glibau. jenai zoi glibau. A THING A CHAIR .glibau.
 variable = VARIABLE (SPACE "{" "VAR" "IABLE"? "}")?
 
 
@@ -357,14 +351,7 @@ LOGICONJUNCTION = "IF" / "IFF" / "IF" SPACE "AND" SPACE "ONLY" SPACE "IF" / "IF-
 
 
 
-CONJUNCTION = ("BUT" / "AND") (SPACE "NOT" / "-" "NOT"?)? / "OR" / "JI"
-
-
-
-# | ni'o zo'oi .PUQUANTIFIER. cmavlaka'i zoi glibau. POTENTIALLY UNIVERSAL QUALIFIER .glibau.
-#
-# ni'o cadga fa lo nu ma fa'u ma selma'o zo'oi .FOR. fa'u ke zo'oi .ALL. je zo'e  .i fegli la .varik. fa le su'u narcu'i fa lo nu cusku lo gerna tcita be zo'e ja zo'oi .FOR.
-PUQUANTIFIER = "FOR" SPACE ("ALL" / "SOME" / "MANY")
+CONJUNCTION = ("BUT" / "AND") (SPACE "NOT" / "-" "NOT")? / "OR" / "JI"
 
 
 
