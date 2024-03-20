@@ -107,7 +107,7 @@ open import Data.String
   )
 \end{code}
 
-\section{le jicmu ja co'e / The Basic}
+\section{le co'e ja jicmu / The Basic}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
