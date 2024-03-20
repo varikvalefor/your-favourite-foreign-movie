@@ -57,10 +57,10 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi gl
 
 \subsection{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
-ni'o pilno la'oi .\texmidnoi{subsection}.\ jenai la'oi .\texmidnoi{paragraph}.\ ki'u le su'u lo tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
+ni'o pilno la'oi .\texmidnoi{subsection}.\ jenai la'oi .\texmidnoi{paragraph}.\ ki'u le su'u lo tcita be lo velcki be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
-That (labels of proofs resemble labels of paragraphs) justifies that VARIK uses \texmidnoi{subsection} and not \texmidnoi{paragraph}.
+That (labels of definitions of proofs resemble labels of paragraphs) justifies that VARIK uses \texmidnoi{subsection} and not \texmidnoi{paragraph}.
 
 \subsection{la .lojban.}
 ni'o la .varik.\ cu nelci le su'u ko'a goi zoi glibau.\ your favourite foreign movie .glibau.\ cmene ko'e goi le gerna be le glibau be la .varik.\ kei ni'i le su'u\ldots
