@@ -138,7 +138,7 @@ postulate Gerna : Set
 ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde le mergu'e zi'o je cu cmacypre\ldots je cu troci lo nu frili fa ko'i goi lo nu jimpe fi lo selsku be ke'a kei kei jenai lo nu ko'i nandu kei je ku'i cu tolnei zo'e poi ke'a banzuka lo ka ce'u sampu kei lo nu ke'a toldra
 
 \paragraph{English}
-\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, likes bad jokes, attempts that easy is understanding (the stuff which is communicated/spoken/written by VARIK), and not attempts that difficult is understanding the stuff which is written by VARIK.  Additionally, VARIK dislikes stuff which is ``incorrectly'' simple.
+\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematican, likes bad jokes, attempts that easy is understanding (the stuff which is communicated/spoken/written by VARIK), and does-not attempt that difficult is understanding the stuff which is written by VARIK.  Additionally, VARIK dislikes stuff which is ``incorrectly'' simple.
 
 \begin{code}
 postulate la-varik : Prenu
@@ -217,7 +217,7 @@ postulate mo'ifrili : ∀ {a} → {A : Set a} → Prenu → String → A → Set
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not finds that necessary is that VARIK provides an English definition.
+VARIK does-not find that necessary is that VARIK provides an English definition.
 
 \begin{code}
 postulate
@@ -235,7 +235,7 @@ postulate
 ni'o la .varik.\ cu stidi lo nu tcidu le torveki fa zo'e poi ke'a na jimpe fi le velcki be bau la'oi .Agda.\ je poi ke'a djica lo nu ke'a jimpe fi le ctaipe
 
 \paragraph{English}
-If the reader not understands about the Agda definition, then if the reader desires that the reader understands about the proof, then VARIK suggests that the reader reads the summary.
+If the reader does-not understand about the Agda definition, then if the reader desires that the reader understands about the proof, then VARIK suggests that the reader reads the summary.
 
 \begin{code}
 
