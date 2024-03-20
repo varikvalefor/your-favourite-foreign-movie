@@ -50,7 +50,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be le glibau be la .varik. / Contains the definition of the proof of that VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu nelci le su'u zoi glibau.\ your favourite foreign movie .glibau.\ cmene le gerna be le glibau be la .varik. / The thing contains the definition of the proof of that VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of the English grammar which is used by VARIK.
 \end{abstract}
 
 \section{le torveki / The Summary}
