@@ -83,13 +83,13 @@ VARIK likes that ``\AgdaString{your favourite foreign movie}'' is the name of th
 
 	$Y$ is the English grammar which is used by VARIK.
 
-	For all $A$, for all $B$, if $B$ is the name of $A$, then if $B$ is a joke/reference, then if easy (for VARIK) is that VARIK remembers that that $B$ is the name of $A$, then VARIK likes that $B$ is the name of $A$.
-
 	$C$ is the name of $Y$.
 
 	$C$ is a joke/reference.
 
 	Easy (for VARIK) is that VARIK remembers that $C$ is the name of $Y$.
+
+	For all $A$, for all $B$, if $B$ is the name of $A$, then if $B$ is a joke/reference, then if easy (for VARIK) is that VARIK remembers that that $B$ is the name of $A$, then VARIK likes that $B$ is the name of $A$.
 
 	Therefore, VARIK likes that $C$ is the name of $Y$.
 \end{proof}
