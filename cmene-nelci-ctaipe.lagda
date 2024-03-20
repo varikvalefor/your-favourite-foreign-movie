@@ -149,7 +149,7 @@ postulate la-varik : Prenu
 ni'o la'o zoi.\ \AgdaPostulate{la-skina}\ .zoi.\ gerna le glibau be la .varik.
 
 \paragraph{English}
-\AgdaPostulate{la-skina}\ is the English grammar which is used by VARIK.
+\AgdaPostulate{la-skina}\ is the grammar of the English language which is used by VARIK.
 
 \begin{code}
 postulate la-skina : Gerna
@@ -160,7 +160,7 @@ postulate la-skina : Gerna
 ni'o la'o zoi.\ \F{le-cmene}\ .zoi.\ cmene le gerna be le glibau be la .varik.
 
 \paragraph{English}
-\F{le-cmene} is the name of the English grammar which is used by VARIK.
+\F{le-cmene} is the name of the grammar of the English language which is used by VARIK.
 
 \begin{code}
 le-cmene = "your favourite foreign movie"
