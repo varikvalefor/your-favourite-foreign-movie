@@ -297,7 +297,7 @@ adverbp = prepositionalphrase
 
 # ni'o cadga fa lo nu ma selma'o pe'a ru'e ko'a goi zo'oi .TO. po le glibau  .i ga je mutce le ka ce'u fegli la .varik. kei fa le su'u no da zo'u ko'a cmavo pe'a ru'e da gi ku'i la .varik. na birti lo du'u zabna fa lo su'u ma kau selma'o pe'a ru'e ko'a
 # .i la .varik. cu milxe le ka ce'u toldji lo nu la .varik. cu pilno lo me'oi .infinitive.  .i krinu la'e di'u fa zo'e ja le su'u ga je la .varik. na birti lo du'u cadga fa lo nu ma selma'o pe'a ru'e ko'a gi fegli la .varik. fa lo nu pilno lo valsi poi na birti lo du'u ke'a cmavo ma kau
-infinitivephrase = "TO" SPACE infinitivephrase1
+infinitivephrase = "TO" (SPACE / "-") infinitivephrase1
 
 infinitivephrase1 = SPACE infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
 
