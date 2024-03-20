@@ -103,7 +103,7 @@ singularverb2 = singularverb3 / "(" singularverb3 ")"
 
 singularverb3 = (singularverb4 / "(" singularverb4 ")") (SPACE prepositionalphrase)?
 
-singularverb4 = (adverb SPACE)? sverb (SPACE adverb)? / adverb SPACE (singularverb3 / "(" singularverb3 ")")
+singularverb4 = (adverb SPACE)? sverb (SPACE (adverb / adverbp))? / adverb SPACE (singularverb3 / "(" singularverb3 ")")
 
 
 
@@ -115,7 +115,7 @@ pluralverb2 = pluralverb3 / "(" pluralverb3 ")"
 
 pluralverb3 = (pluralverb4 / "(" pluralverb4 ")") (SPACE prepositionalphrase)?
 
-pluralverb4 = (adverb SPACE)? pverb (SPACE adverb)? / adverb SPACE (pluralverb3 / "(" pluralverb3 ")")
+pluralverb4 = (adverb SPACE)? pverb (SPACE (adverb / adverbp))? / adverb SPACE (pluralverb3 / "(" pluralverb3 ")")
 
 
 
@@ -289,6 +289,10 @@ adverb2 = adverb3 ((SPACE / COMMA SPACE (adverb3 COMMA SPACE)+) conjunction SPAC
 adverb3 = adverb4 / "(" adverb ")"
 
 adverb4 = ADVERB (SPACE "{" "ADV" "ERB"? "}")?
+
+
+
+adverbp = prepositionalphrase
 
 
 
