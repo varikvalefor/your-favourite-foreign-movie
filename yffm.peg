@@ -223,7 +223,6 @@ adjective4 = ADJECTIVE (SPACE "{" "ADJ" "ECTIVE"? "}")?
 
 
 
-
 relclauseopener = RELCLAUSEOPENER (SPACE "{" ("RCO" / ("REL" "ATIVE"?) "CLAUSEOPENER") "}")?
 
 
