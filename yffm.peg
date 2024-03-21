@@ -291,7 +291,7 @@ adverb4 = ADVERB (SPACE "{" "ADV" "ERB"? "}")?
 
 
 
-# | ni'o filri'a lo nu gerna fi zoi glibau. THE THING WORKS WITHOUT BURSTING INTO FLAMES!  AMAZING! .glibau. je ba'e nai zoi glibau.  THE THING (WITHOUT (BURSTING INTO FLAMES) WORKS {SVERB})!  AMAZING! .glibau. noi ke'a fegli la .varik.
+# | ni'o filri'a lo nu gerna fi zoi glibau. THE THING WORKS WITHOUT BURSTING INTO FLAMES!  AMAZING! .glibau. je ba'e nai zoi glibau.  THE THING (WITHOUT (BURSTING INTO FLAMES) WORKS {SVERB})!  AMAZING! .glibau. noi ke'a fegli la .varik.... je noi lakne fa lo nu lo so'i prenu cu na jimpe fi ke'a
 adverbp = prepositionalphrase
 
 
