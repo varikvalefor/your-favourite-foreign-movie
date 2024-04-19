@@ -91,7 +91,7 @@ gnoun2 = gnoun2_5 gnoun2 / gnoun2_5? (gnoun3 / "(" gnoun2 ")")
 # .i cumki fa lo nu la .varik. cu bixygau fi lo na feglyzvi
 gnoun2_5 = (ADJECTIVE / SNOUN / PNOUN) SPACE
 
-gnoun3 = (pluralnoun / singularnoun) (SPACE variable)? / variable
+gnoun3 = variable / (pluralnoun / singularnoun) (SPACE variable)?
 
 
 
