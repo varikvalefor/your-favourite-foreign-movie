@@ -160,7 +160,7 @@ pluralpredicate2 = pluralverb (SPACE prepositionalphrase?) (SPACE gnoun)?
 
 
 
-singularpredicate = singularpredicate1 ((SPACE / COMMA SPACE (singularpredicate COMMA SPACE)+) conjunction SPACE singularpredicate)?
+singularpredicate = singularpredicate1 ((SPACE / COMMA SPACE (singularpredicate1 COMMA SPACE)+) conjunction SPACE singularpredicate1)?
 
 singularpredicate1 = singularpredicate2 / "(" singularpredicate2 ")"
 
