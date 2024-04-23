@@ -298,7 +298,7 @@ adverbp = prepositionalphrase
 
 infinitivephrase = infinitiveopener SPACE infinitivephrase1
 
-infinitivephrase1 = SPACE infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
+infinitivephrase1 = infinitive (SPACE prepositionalphrase)? (SPACE gnoun)?
 
 
 
