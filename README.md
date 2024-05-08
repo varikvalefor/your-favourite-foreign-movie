@@ -17,6 +17,8 @@ ni'o la .varik. cu troci...
 
 * je nai lo nu ro da poi ke'a glibau mu'oi glibau. style guide .glibau. je cu se pilno la .varik. zo'u ko'a gerna fi lo ro te gerna be fi zo'e pe da
 
+.i velcki ko'a fa la'o zoi. yffm.peg .zoi.
+
 ## English
 "`A`" denotes `your favourite foreign movie`.
 
@@ -24,5 +26,7 @@ ni'o la .varik. cu troci...
 
 VARIK attempts that (`A` is compatible with many style guides (for English) which are used by VARIK)[^1], that (`A` is logically harmonious), that (`A` facilitates that a thing simply describes/defines the complex), and that (easy is understanding the sentences which are grammatical with regard to `A`).  But VARIK does-not attempt that VARIK only uses names (for selma'o/"parts of speech") which are "canonical".
   Additionally, VARIK does-not attempt that for all style guides (for English) (which are used by VARIK) `B`, grammatical with regard to `A` are all things which are grammatical with regard to the grammar which is associated with `B`.
+
+yffm.peg is the definition of `A`.
 
 [^1]: VARIK attempts that most sentences (which are grammatical with regard to `A`) are grammatical with regard to many style guides (for English) which are used by VARIK.
