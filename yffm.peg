@@ -386,7 +386,7 @@ INTERSENTENCESPACE = "  " / "\n"+
 
 # | ni'o ga je ko'a goi zo'oi .EMOTICON. na prane le ka ce'u mapti gi ku'i la .varik. na birti lo du'u ma kau zmadu ko'a le ka ce'u mapti
 # .i ranji fa le nu la .varik. cu djica curmi lo nu pinka
-EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi" / "lol no" / "chicle"
+EMOTICON = (("%" / ":" / ";") "^" / ">") ")" / "(<" / "aw yeah bitches" / "hell ye boi" / "lol no" / "chicle" / "bitch'n'"
 
 
 
