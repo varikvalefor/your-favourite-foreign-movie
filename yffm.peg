@@ -72,6 +72,7 @@ pluralclause1 = (pluralnoun SPACE)? pluralpredicate
 # .i lo so'i cmima be ko'a cu smimlu lo so'i cmima be ko'e goi lo'i ro se retsku be la .varik. be'o poi gerna la .lojban. ke'a  .i lo so'i cmima be ko'e cu selneimau lo so'i cmima be ko'a la .varik.
 #
 # .i cumki fa lo nu cadga fa lo nu vimcu la'oi .intquestion. je zo'e
+# .i to'e cafne fa lo nu la .varik. cu pilno la'oi .intquestion.
 intquestion = intquestion1 (infinitive (SPACE gnoun)?)?
 
 intquestion1 = shelpverb SPACE singularnoun / phelpverb SPACE pluralnoun
