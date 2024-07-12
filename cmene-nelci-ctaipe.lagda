@@ -201,15 +201,15 @@ A proof of \AgdaPostulate{xamsku-je-sitsku} \B b\ exists iff \B b\ is a joke/ref
 postulate xamsku-je-sitsku : String → Set
 \end{code}
 
-\subsection{la .\AgdaPostulate{mo'ifrili}.}
+\subsection{la .\AgdaPostulate{mo'irfrili}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili la'oi .\B a.\ fa lo nu la'oi .\B a.\ morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mo'irfrili}\ \B a\ \B b\ \B c\ .zoi.\ gi frili la'oi .\B a.\ fa lo nu la'oi .\B a.\ morji lo du'u la'oi .\B b.\ cmene la'oi .\B c.
 
 \paragraph{English}
-A proof of \AgdaPostulate{mo'ifrili}\ \B a\ \B b\ \B c\ exists iff easy (for \B a) is that \B a remembers that \B b\ is the name of \B c.
+A proof of \AgdaPostulate{mo'irfrili}\ \B a\ \B b\ \B c\ exists iff easy (for \B a) is that \B a remembers that \B b\ is the name of \B c.
 
 \begin{code}
-postulate mo'ifrili : ∀ {a} → {A : Set a} → Prenu → String → A → Set
+postulate mo'irfrili : ∀ {a} → {A : Set a} → Prenu → String → A → Set
 \end{code}
 
 \subsection{la .\AgdaPostulate{cmenynelci}.}
@@ -226,7 +226,7 @@ postulate
              → {c : String}
              → c cu-cmene x
              → xamsku-je-sitsku c
-             → mo'ifrili la-varik c x
+             → mo'irfrili la-varik c x
              → la-varik cu-nelci_ $ le-su'u $ c cu-cmene x
 \end{code}
 
@@ -245,6 +245,6 @@ iifcmenynelci = cmenynelci iifcmenes iifcmexam iifrilits
   postulate
     iifcmenes : le-cmene cu-cmene la-skina
     iifcmexam : xamsku-je-sitsku le-cmene
-    iifrilits : mo'ifrili la-varik le-cmene la-skina
+    iifrilits : mo'irfrili la-varik le-cmene la-skina
 \end{code}
 \end{document}
