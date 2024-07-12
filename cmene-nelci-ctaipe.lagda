@@ -163,6 +163,7 @@ ni'o la'o zoi.\ \F{le-cmene}\ .zoi.\ cmene le gerna be le glibau be la .varik.
 \F{le-cmene} is the name of the grammar of the English language which is used by VARIK.
 
 \begin{code}
+le-cmene : String
 le-cmene = "your favourite foreign movie"
 \end{code}
 
